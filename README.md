@@ -1,4 +1,4 @@
-# CodeSquad-Beta.gitHub.io
+# CodeSquad.gitHub.io
 Beta repo for CodeSquad team
 BETA TESTING 
 
