@@ -1,1 +1,15 @@
-
+Package: com.fromderik.darkios10
+Version: 1.1.8-3
+Architecture: iphoneos-arm
+Maintainer: FromDerik
+Depends: com.anemonetheming.anemone
+Filename: ./debs/com.fromderik.darkios10_1.1.8-3_iphoneos-arm.deb
+Size: 2296170
+MD5sum: 6920386ee8c2da04a47db694beccc917
+SHA1: a11517d93aa155f35f6110e2fed66c958b9a27d3
+SHA256: fd851dce6ea17cf0d72fb904312f075a647e71f1f3bbd06afda2d2c1762b612f
+Section: Themes (Springboard)
+Description: A Dark Theme For iOS 10
+Author: FromDerik
+Depiction: https://fromderik.github.io/depic/darkios10.html
+Name: Dark iOS 10
