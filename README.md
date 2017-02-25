@@ -1,4 +1,4 @@
-# CodeSquad-beta.gitHub.io
+# CodeSquad-beta.github.io/Cydia/
 Beta repo for CodeSquad team
 BETA TESTING 
 
