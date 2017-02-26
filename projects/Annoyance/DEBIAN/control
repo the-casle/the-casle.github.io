@@ -1,10 +1,9 @@
-Package: com.yourcompany.test
-Name: test
+Package: com.codesquad.annoyance
+Name: Annoyance
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: Mobile User
-Author: Mobile User
+Description: Brings a pop-up every time icon is tapped. EVERY TIME.
+Maintainer: CodeSquad
+Author: The_Casle
 Section: Tweaks
-Version: 0.0.1-2+debug
-Installed-Size: 120
+Version: 0.0.1
