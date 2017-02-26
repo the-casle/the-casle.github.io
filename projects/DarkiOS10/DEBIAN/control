@@ -3,7 +3,7 @@ Name: Dark iOS 10
 Depends: com.anemonetheming.anemone
 Version: 1.1.8-3
 Architecture: iphoneos-arm
-Depiction: https://fromderik.github.io/depic/?p=com.codesquad.darkios10
+Depiction: https://codesquad-beta.github.io/depic/?p=com.codesquad.darkios10
 Description: A Dark Theme For iOS 10
 Maintainer: FromDerik
 Author: FromDerik

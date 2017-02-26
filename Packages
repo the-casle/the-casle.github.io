@@ -5,12 +5,12 @@ Maintainer: FromDerik
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.codesquad.darkios10_1.1.8-3_iphoneos-arm.deb
 Size: 2295888
-MD5sum: 874d34d0b45b855d4a328f2b20319d62
-SHA1: a9e0606f2dea2462086cb51bd8225bde81e1f8a5
-SHA256: 25e5668b39c8262b2e72f8d2f61d9227b013ad4531c3003ef60044a37013de48
+MD5sum: 5be339941f563b5f315476404ac64c15
+SHA1: 39e39d2cfad8eb33f35c31c345ded3f569ef6943
+SHA256: fab6d1e2e69e9f916e9750ac7a06106cad04eadcc1f3f698c827d913cdce0c0f
 Section: Themes (Springboard)
 Description: A Dark Theme For iOS 10
 Author: FromDerik
-Depiction: https://fromderik.github.io/depic/?p=com.codesquad.darkios10
+Depiction: https://codesquad-beta.github.io/depic/?p=com.codesquad.darkios10
 Name: Dark iOS 10
 
