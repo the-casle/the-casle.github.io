@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Follow me on Twitter</name>
+			<url>https://twitter.com/FromDerik</url>
+			<iconclass>glyphicon glyphicon-user</iconclass>
+		</link>
+		<link>
+			<name>Follow me on Reddit</name>
+			<url>https://reddit.com/user/FromDerik</url>
+			<iconclass>glyphicon glyphicon-user</iconclass>
+		</link>
+	</footerlinks>
+</repo>
