@@ -1,0 +1,10 @@
+Package: com.yourcompany.test
+Name: test
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Mobile User
+Author: Mobile User
+Section: Tweaks
+Version: 0.0.1-2+debug
+Installed-Size: 120

@@ -5,12 +5,28 @@ Maintainer: FromDerik
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.codesquad.darkios10_1.1.8-3_iphoneos-arm.deb
 Size: 2295888
-MD5sum: 5be339941f563b5f315476404ac64c15
-SHA1: 39e39d2cfad8eb33f35c31c345ded3f569ef6943
-SHA256: fab6d1e2e69e9f916e9750ac7a06106cad04eadcc1f3f698c827d913cdce0c0f
+MD5sum: d5ac6c54dd15de8a508f3103619eb20f
+SHA1: bcf74973e622bd82bdd1980ec9d4b0d5a0b46796
+SHA256: 05423c77b5e6a7730c942ea2b57c251dbea3330592b38741be986e8e94cb155c
 Section: Themes (Springboard)
 Description: A Dark Theme For iOS 10
 Author: FromDerik
 Depiction: https://codesquad-beta.github.io/depic/?p=com.codesquad.darkios10
 Name: Dark iOS 10
+
+Package: com.yourcompany.test
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: Mobile User
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/com.yourcompany.test_0.0.1-2+debug_iphoneos-arm.deb
+Size: 4812
+MD5sum: 5e0c6deefb360dad5d146f309a476e0e
+SHA1: 816bb22fde5561e09866cf0be0c8f29fe7083111
+SHA256: e35d38464b1c631a4a51283396c330074e0da0db71d801835a151edbe44ef47a
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Mobile User
+Name: test
 
