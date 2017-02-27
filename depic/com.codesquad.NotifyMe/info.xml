@@ -1,5 +1,5 @@
 <package>
-	<id>com.codesquad.annoyance</id>
+	<id>com.codesquad.NotifyMe</id>
 	<name>Annoyance</name>
 	<version>0.0.1-1+debug</version>
 	<compatibility>
@@ -12,7 +12,7 @@
 	</dependencies>
 	<descriptionlist>
 		<description><![CDATA[
-			Just a test tweak. It brings a pop-up every time an icon is tapped. EVERY. TIME.
+			Just a test tweak. Notifies upon Sucsessful Respring
 		]]>
 		</description>
 	</descriptionlist>
