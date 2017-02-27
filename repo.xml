@@ -1,14 +1,10 @@
 <repo>
 	<footerlinks>
 		<link>
-			<name>Follow me on Twitter</name>
-			<url>https://twitter.com/FromDerik</url>
+			<name>Follow CodeSquad on Twitter</name>
+			<url>https://twitter.com/CodeSquad_Beta</url>
 			<iconclass>glyphicon glyphicon-user</iconclass>
 		</link>
-		<link>
-			<name>Follow me on Reddit</name>
-			<url>https://reddit.com/user/FromDerik</url>
-			<iconclass>glyphicon glyphicon-user</iconclass>
-		</link>
+
 	</footerlinks>
 </repo>

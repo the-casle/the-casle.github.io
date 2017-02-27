@@ -6,9 +6,9 @@ Installed-Size: 120
 Depends: mobilesubstrate
 Filename: ./debs/com.codesquad.annoyance_0.0.1-1+debug_iphoneos-arm.deb
 Size: 4858
-MD5sum: 8e1c1e347c6ce7202a8472d1155fe758
-SHA1: 6980c2630f20698ff56ed86e92ea8d1213e2c5f0
-SHA256: fc92d83d7c4479f141b5c3521e43526d7330f8f47472b6fb1b0cca5cdfff7957
+MD5sum: d1a7f12a11c4d865d05befe5a0728f9f
+SHA1: b6fee54cfdf79d91b226c8440292baa822b3c9a1
+SHA256: 86174b366fe3c1061d5eb24b70b0d6a3faf828c00e32ef651206fa4f81ac1d49
 Section: Tweaks
 Description: Brings a pop-up every time an icon is tapped. EVERY TIME.
 Author: The_Casle
@@ -22,9 +22,9 @@ Maintainer: FromDerik
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.codesquad.darkios10_1.1.8-3_iphoneos-arm.deb
 Size: 2295888
-MD5sum: ea8b0ae49235e403f40c56e028a04784
-SHA1: 2fb38fe4e7aea40baee6d92e15eb06c5e9af3549
-SHA256: 7be50eff2a228b286b5c4f8286178864628aec1cc53a201f79ff0a514a331f56
+MD5sum: 9b649115864ffe906346792bfeeb2cf6
+SHA1: cfbaad39ffd78ef4254a70eaf18dcf4ea5c695e8
+SHA256: 1e70acb89f180796d205db424cc5887b641fae56f795588e9a8ea99f975a7740
 Section: Themes (Springboard)
 Description: A Dark Theme For iOS 10
 Author: FromDerik
