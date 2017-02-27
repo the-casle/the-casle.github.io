@@ -1,6 +1,6 @@
 <package>
-	<id>com.codesquad.notifyme</id>
-	<name>NotifyMe</name>
+	<id>com.codesquad.Annoyance</id>
+	<name>Annoyance</name>
 	<version>0.0.1-1+debug</version>
 	<compatibility>
 		<firmware>
@@ -12,18 +12,12 @@
 	</dependencies>
 	<descriptionlist>
 		<description><![CDATA[
-			Just a test tweak. Notifies when respring is sucsessful
+			Just a test tweak. Brings pop-up on every icon tap. Every. single. one.
 		]]>
 		</description>
 	</descriptionlist>
 	<screenshots>
 	</screenshots>
-	<links>
-		<link>
-			<name>Support FromDerik by donating on PayPal</name>
-			<url>https://paypal.me/DerikMalcolm/1</url>
-		</link>
-	</links>
 	<changelog>
 		<change>Inital Release</change>
 	</changelog>
