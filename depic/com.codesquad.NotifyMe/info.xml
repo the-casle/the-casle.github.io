@@ -1,6 +1,6 @@
 <package>
-	<id>com.codesquad.notifyme</id>
-	<name>NotifyMe</name>
+	<id>com.codesquad.annoyance</id>
+	<name>Annoyance</name>
 	<version>0.0.1-1+debug</version>
 	<compatibility>
 		<firmware>
@@ -12,7 +12,7 @@
 	</dependencies>
 	<descriptionlist>
 		<description><![CDATA[
-			Just a test tweak. Notifies when respring is sucsessful
+			Just a test tweak. It brings a pop-up every time an icon is tapped. EVERY. TIME.
 		]]>
 		</description>
 	</descriptionlist>
