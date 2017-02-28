@@ -3,6 +3,7 @@ Beta repo for CodeSquad team
 BETA TESTING 
 
 Use ./gpush.sh to add
+
 Use ./ggpush.sh to delete, replace
 
 
