@@ -1,0 +1,50 @@
+Package: com.codesquad.annoyance
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: CodeSquad
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/com.codesquad.annoyance_0.0.1-1+debug_iphoneos-arm.deb
+Size: 4854
+MD5sum: 416693dfa6b0382d6fe888a4df64adca
+SHA1: cb555a2af99c6f43b9de20dd3f3be15ad16f53f3
+SHA256: 21e0a6c228c00092f25c824fda345fc860522773fbbd01c04c6e1f7d40706465
+Section: Tweaks
+Description: Brings a pop-up every time an icon is tapped. EVERY TIME.
+Author: The_Casle
+Depiction: https://codesquad-beta.github.io/depic/?p=com.codesquad.Annoyance
+Name: Annoyance
+
+Package: com.codesquad.darkios10
+Version: 1.1.8-3
+Architecture: iphoneos-arm
+Maintainer: FromDerik
+Depends: com.anemonetheming.anemone
+Filename: ./debs/com.codesquad.darkios10_1.1.8-3_iphoneos-arm.deb
+Size: 2295856
+MD5sum: 5afaad40ed786127906d2fd91f68ef92
+SHA1: 80ce6724d57e7e442a5edfb8c958a44acaaf5dd0
+SHA256: bdb5bb7f7f0a48a5f1bc1e836eafaefa4867d0af16a7dd1839e42ce7e2f5be6a
+Section: Themes (Springboard)
+Description: A Dark Theme For iOS 10
+Author: FromDerik
+Depiction: https://codesquad-beta.github.io/depic/?p=com.codesquad.darkios10
+Name: Dark iOS 10
+
+Package: com.codesquad.notifyme
+Version: 0.0.1-1+debug-1+debug
+Architecture: iphoneos-arm
+Maintainer: CodeSquad <codesquad-beta@gmail.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/com.codesquad.notifyme_0.0.1-1+debug-1+debug_iphoneos-arm.deb
+Size: 5400
+MD5sum: 063446349d7d947554ba67b6916eaac1
+SHA1: a7df494dd20be779a0c6e9482e16ce7a52851c20
+SHA256: a71441282005ca10ac2c61e971f561f19588e47c9b43cb186a87e4d4d785e0b2
+Section: Tweaks
+Description: Notifies you when restring was successful
+Author: The_Casle
+Depiction: https://codesquad-beta.github.io/depic/?p=com.codesquad.NotifyMe
+Name: NotifyMe
+
