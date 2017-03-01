@@ -2,7 +2,7 @@ Package: com.codesquad.annoyance
 Name: Annoyance
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Depiction: https://codesquad-beta.github.io/depic/?p=com.codesquad.Annoyance
+Depiction: https://codesquad-beta.github.io/cydia/depic/?p=com.codesquad.Annoyance
 Description: Brings a pop-up every time an icon is tapped. EVERY TIME.
 Maintainer: CodeSquad
 Author: The_Casle
