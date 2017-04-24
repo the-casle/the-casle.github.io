@@ -43,15 +43,15 @@ Author: The_Casle
 Depiction: https://codesquad-beta.github.io/cydia/depic/?p=com.codesquad.NotifyMe
 
 Package: com.yourcompany.searchbar
-Version: 1.3a-2+debug
+Version: 1.3a-4+debug
 Section: Tweaks
 Maintainer: Mobile User
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/com.yourcompany.searchbar_1.3a-2+debug_iphoneos-arm.deb
-Size: 3542
+Filename: ./debs/com.yourcompany.searchbar_1.3a-4+debug_iphoneos-arm.deb
+Size: 3544
 Installed-Size: 120
-MD5sum: 9e9c198b32d1f86b7103d2afa1e50477
+MD5sum: 2f7eee1a4b4a756d5a90300164a7598d
 Description: An awesome MobileSubstrate tweak!
 Name: SearchBar
 Author: Mobile User
