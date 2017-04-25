@@ -1,58 +1,50 @@
 Package: com.codesquad.annoyance
 Version: 0.0.1-1+debug
-Section: Tweaks
-Maintainer: CodeSquad
-Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/com.codesquad.annoyance_0.0.1-1+debug_iphoneos-arm.deb
-Size: 4856
+Maintainer: CodeSquad
 Installed-Size: 120
-MD5sum: 12f9f39c91739059c9ee47189c08f201
+Depends: mobilesubstrate
+Filename: ./debs/com.codesquad.annoyance_0.0.1-1+debug_iphoneos-arm.deb
+Size: 4860
+MD5sum: 7c474601b8400a36b5785588441d0159
+SHA1: 367ffd338e042b7d78326eecd2fbe493490d101e
+SHA256: 39edba07b48b1693a069869bb781044b7a0fcc8c708a23fe06bd98d80c94b23c
+Section: Tweaks
 Description: Brings a pop-up every time an icon is tapped. EVERY TIME.
-Name: Annoyance
 Author: The_Casle
 Depiction: https://codesquad-beta.github.io/cydia/depic/?p=com.codesquad.Annoyance
-
-Package: com.codesquad.darkios10
-Version: 1.1.8-3
-Section: Themes (Springboard)
-Maintainer: FromDerik <DerikMalcolm@gmail.com>
-Depends: com.anemonetheming.anemone
-Architecture: iphoneos-arm
-Filename: ./debs/com.codesquad.darkios10_1.1.8-3_iphoneos-arm.deb
-Size: 2295888
-MD5sum: 479b8b127e664b8479bc9cf0dedb8f4c
-Description: A Dark Theme For iOS 10
-Name: Dark iOS 10
-Author: FromDerik <DerikMalcolm@gmail.com>
-Depiction: https://fromderik.github.io/depic/?p=com.fromderik.darkios10
+Name: Annoyance
 
 Package: com.codesquad.notifyme
 Version: 0.0.2
-Section: Tweaks
-Maintainer: CodeSquad
-Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/com.codesquad.notifyme_0.0.2_iphoneos-arm.deb
-Size: 5384
+Maintainer: CodeSquad
 Installed-Size: 120
-MD5sum: 34f26d57b37759ca7226a1f4668e1c21
+Depends: mobilesubstrate
+Filename: ./debs/com.codesquad.notifyme_0.0.2_iphoneos-arm.deb
+Size: 5388
+MD5sum: 5a001615a16b426a954fd294336907b9
+SHA1: 57501b6cd3ed9edacb01dcbef4e72f08621546e0
+SHA256: 0410783de53f0cd07ed80e5834e987ba164dc794abf36bf6c8d9f12668448436
+Section: Tweaks
 Description: Notifies you when restring was successful
-Name: NotifyMe
 Author: The_Casle
 Depiction: https://codesquad-beta.github.io/cydia/depic/?p=com.codesquad.NotifyMe
+Name: NotifyMe
 
 Package: com.yourcompany.searchbar
 Version: 1.3a-4+debug
-Section: Tweaks
-Maintainer: Mobile User
-Depends: mobilesubstrate
 Architecture: iphoneos-arm
+Maintainer: Mobile User
+Installed-Size: 120
+Depends: mobilesubstrate
 Filename: ./debs/com.yourcompany.searchbar_1.3a-4+debug_iphoneos-arm.deb
 Size: 3544
-Installed-Size: 120
 MD5sum: 2f7eee1a4b4a756d5a90300164a7598d
+SHA1: 535c3dd3939acf344b52459ffb59ca8821608b2f
+SHA256: 1a78f40d3948a4d4f60b26615d62f15bbe0cedafe10b2ae501f54d9cb77b0939
+Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
-Name: SearchBar
 Author: Mobile User
+Name: SearchBar
 
