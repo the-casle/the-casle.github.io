@@ -1,11 +1,9 @@
 ARCHS = armv7 arm64
-PACKAGE_VERSION = $
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = SearchBar
-SearchBar_FILES = Tweak.xm
-SearchBar_FRAMEWORKS = UIKit
+TWEAK_NAME = ccdark
+ccdark_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
