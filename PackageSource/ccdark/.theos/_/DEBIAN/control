@@ -1,0 +1,10 @@
+Package: com.thecasle.ccdark
+Name: ccdark
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome adjustable dark control center tweak
+Maintainer: the casle
+Author: the casle
+Section: Tweaks
+Version: 0.0.1-1+debug
+Installed-Size: 252

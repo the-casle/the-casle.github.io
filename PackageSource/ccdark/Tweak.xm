@@ -18,60 +18,64 @@ return [[[NSDictionary dictionaryWithContentsOfFile:PLIST_PATH] valueForKey:key]
 @end
 
 %hook CCUIControlCenterSettings
-
+//this one works, change background
 -(void) setBackgroundDarkening: (double) arg1 {
 if(GetPrefBool(@"kBackgroundDarkening")) {
-%orig(0.3);
+%orig(.3);
 } else {
 %orig;
-}}
+} }
 %end
 
 %hook NCMaterialSettings
+//works, darkens all cc background color
 -(void) setDarkenedWhiteAlpha: (double) arg1 {
 if(GetPrefBool(@"kDarkenedWhiteAlpha")) {
 %orig(0);
 } else {
 %orig;
-}
-}
+} }
+
+//this one works (basically blur)
 -(void) setBlurRadius: (double) arg1 {
 if(GetPrefBool(@"kBlurRadius")) {
 %orig(80);
 } else {
 %orig;
-}
-}
+} }
+//Bubble color, later deal with
 -(void) setSaturation: (double) arg1 {
 if(GetPrefBool(@"kSaturation")) {
 %orig(2);
 } else {
 %orig;
-}
-}
+} }
+
+//White circles lol, works
 -(void) setCutOutOverlayAlpha: (double) arg1 {
 if(GetPrefBool(@"kCutOutOverlayAlpha")) {
 %orig(0);
 } else {
 %orig;
-}
-}
+} }
+
+//No background anymore for buttons 
 -(void) setCutOutOverlayWhite: (double) arg1 {
 if(GetPrefBool(@"kCutOutOverlayWhite")) {
-%orig(1);
-} else {
-%orig;
-}
-}
--(void) setCcWhiteOverlayAlpha: (double) arg1 {
-if(GetPrefBool(@"kCcWhiteOverlayAlpha")) {
 %orig(0);
 } else {
 %orig;
-}
-}
-%end
+} }
+//assuming it works
+-(void) setCcWhiteOverlayAlpha: (double) arg1 {
+if(GetPrefBool(@"kCcWhiteOverlayAlpha")) {
+%orig(1);
+} else {
+%orig;
+} }
 
+%end
+//this one works
 %hook CCUIControlCenterVisualEffect
 -(id) initWithPrivateStyle: (long long) arg1{
 if(GetPrefBool(@"kPrivateStyle")) {
@@ -80,27 +84,25 @@ return %orig(1);
 } else {
 %orig;
 return %orig;
-}
-}
+} }
 %end
 
-
+//this one works 
 %hook CCUIControlCenterSlider
 -(void) setMinimumValueImage: (id) arg1{
 if(GetPrefBool(@"kVolumeImage")) {
 
 } else {
 %orig;
-}
-}
-
+} }
+//this one works
 -(void) setMaximumValueImage: (id) arg1{
 if(GetPrefBool(@"kVolumeImage")) {
 
 } else {
 %orig;
-}
-}
+} }
+//this one works
 -(void) _setTrackImage: (id) arg1{
 }
 %end
