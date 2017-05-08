@@ -1,8 +1,24 @@
+/*
+To do list:
+Get them sliders going
+Test if my "fix" causes more bugs
+Beta test
+More features - ccnofloating?
+Status bar based color?
+
+*/
+
+
 #define PLIST_PATH @"/private/var/mobile/Library/Preferences/com.thecasle.ccdarkprefs.plist" 
  
 inline bool GetPrefBool(NSString *key)
 {
 return [[[NSDictionary dictionaryWithContentsOfFile:PLIST_PATH] valueForKey:key] boolValue];
+}
+
+inline int GetPrefSlider(NSString *key)
+{
+return [[[NSDictionary dictionaryWithContentsOfFile:PLIST_PATH] valueForKey:key] intValue];
 }
 
 @interface CCUIControlCenterSettings
@@ -21,7 +37,8 @@ return [[[NSDictionary dictionaryWithContentsOfFile:PLIST_PATH] valueForKey:key]
 //this one works, change background
 -(void) setBackgroundDarkening: (double) arg1 {
 if(GetPrefBool(@"kBackgroundDarkening")) {
-%orig(.3);
+double sliderValue = GetPrefSlider(@"kSBackgroundDarkening");
+%orig(sliderValue);
 } else {
 %orig;
 } }

@@ -10,4 +10,8 @@
 	return _specifiers;
 }
 
+-(void)respring {
+         system("killall -9 SpringBoard");
+      }
+
 @end
