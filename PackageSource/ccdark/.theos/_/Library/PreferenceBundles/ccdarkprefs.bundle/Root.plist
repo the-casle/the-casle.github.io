@@ -4,12 +4,23 @@
 <dict>
 	<key>items</key>
 	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
 			<string>CC Background</string>
 		</dict>
+
 		<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
@@ -24,6 +35,108 @@
 		</dict>
 
 		<dict>
+
+			<key>cell</key>
+
+			<string>PSSliderCell</string>
+
+			<key>default</key>
+
+			<real>1</real>
+
+			<key>max</key>
+
+			<real>2</real>
+
+			<key>min</key>
+
+			<real>0</real>
+
+			<key>defaults</key>
+
+			<string>com.thecasle.ccdarkprefs</string>
+
+			<key>showValue</key>
+
+			<true/>
+
+<key>isSegmented</key>
+			<true/>
+
+<key>segmentCount</key>
+			<integer>2</integer>
+
+			<key>key</key>
+
+			<string>kSPrivateStyle</string>
+
+		</dict>
+
+		<dict>
+
+		   <key>cell</key>
+
+		   <string>PSGroupCell</string>
+
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.thecasle.ccdarkprefs</string>
+			<key>key</key>
+			<string>kSaturation</string>
+			<key>label</key>
+			<string>Saturation of cc</string>
+		</dict>
+
+		<dict>
+
+			<key>cell</key>
+
+			<string>PSSliderCell</string>
+
+			<key>default</key>
+
+			<real>3</real>
+
+			<key>max</key>
+
+			<real>40</real>
+
+			<key>min</key>
+
+			<real>0</real>
+
+			<key>defaults</key>
+
+			<string>com.thecasle.ccdarkprefs</string>
+
+			<key>showValue</key>
+
+			<true/>
+
+			<key>key</key>
+
+			<string>kSSaturation</string>
+
+			<key>footerText</key>
+			<string>This... yea I dare you to go over 20</string>
+
+		</dict>
+
+		<dict>
+
+		   <key>cell</key>
+
+		   <string>PSGroupCell</string>
+
+		</dict>
+
+		<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
@@ -33,7 +146,47 @@
 			<key>key</key>
 			<string>kDarkenedWhiteAlpha</string>
 			<key>label</key>
-			<string>Darken CC Alpha</string>
+			<string>Darken CC + Alpha</string>
+		</dict>
+
+		<dict>
+
+			<key>cell</key>
+
+			<string>PSSliderCell</string>
+
+			<key>default</key>
+
+			<real>0</real>
+
+			<key>max</key>
+
+			<real>1</real>
+
+			<key>min</key>
+
+			<real>0</real>
+
+			<key>defaults</key>
+
+			<string>com.thecasle.ccdarkprefs</string>
+
+			<key>showValue</key>
+
+			<true/>
+
+			<key>key</key>
+
+			<string>kSDarkenedWhiteAlpha</string>
+
+		</dict>
+
+		<dict>
+
+		   <key>cell</key>
+
+		   <string>PSGroupCell</string>
+
 		</dict>
 
 		<dict>
@@ -47,6 +200,38 @@
 			<string>kBlurRadius</string>
 			<key>label</key>
 			<string>Blur Of CC</string>
+		</dict>
+
+		<dict>
+
+			<key>cell</key>
+
+			<string>PSSliderCell</string>
+
+			<key>default</key>
+
+			<real>80</real>
+
+			<key>max</key>
+
+			<real>100</real>
+
+			<key>min</key>
+
+			<real>0</real>
+
+			<key>defaults</key>
+
+			<string>com.thecasle.ccdarkprefs</string>
+
+			<key>showValue</key>
+
+			<true/>
+
+			<key>key</key>
+
+			<string>kSBlurRadius</string>
+
 		</dict>
 
 		<dict>
@@ -69,6 +254,46 @@
 			<string>Alpha of buttons</string>
 		</dict>
 
+<dict>
+
+			<key>cell</key>
+
+			<string>PSSliderCell</string>
+
+			<key>default</key>
+
+			<real>1</real>
+
+			<key>max</key>
+
+			<real>1</real>
+
+			<key>min</key>
+
+			<real>0</real>
+
+			<key>defaults</key>
+
+			<string>com.thecasle.ccdarkprefs</string>
+
+			<key>showValue</key>
+
+			<true/>
+
+			<key>key</key>
+
+			<string>kSCutOutOverlayAlpha</string>
+
+		</dict>
+
+		<dict>
+
+		   <key>cell</key>
+
+		   <string>PSGroupCell</string>
+
+		</dict>
+
 		<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
@@ -80,6 +305,46 @@
 			<string>kCutOutOverlayWhite</string>
 			<key>label</key>
 			<string>Shade of buttons</string>
+		</dict>
+
+		<dict>
+
+			<key>cell</key>
+
+			<string>PSSliderCell</string>
+
+			<key>default</key>
+
+			<real>0</real>
+
+			<key>max</key>
+
+			<real>2</real>
+
+			<key>min</key>
+
+			<real>0</real>
+
+			<key>defaults</key>
+
+			<string>com.thecasle.ccdarkprefs</string>
+
+			<key>showValue</key>
+
+			<true/>
+
+			<key>key</key>
+
+			<string>kSCutOutOverlayWhite</string>
+
+		</dict>
+
+		<dict>
+
+		   <key>cell</key>
+
+		   <string>PSGroupCell</string>
+
 		</dict>
 
 		<dict>
@@ -103,16 +368,35 @@
 		</dict>
 
 		<dict>
+
 			<key>cell</key>
-			<string>PSSwitchCell</string>
+
+			<string>PSSliderCell</string>
+
 			<key>default</key>
-			<true/>
+
+			<real>0</real>
+
+			<key>max</key>
+
+			<real>1</real>
+
+			<key>min</key>
+
+			<real>0</real>
+
 			<key>defaults</key>
+
 			<string>com.thecasle.ccdarkprefs</string>
+
+			<key>showValue</key>
+
+			<true/>
+
 			<key>key</key>
-			<string>kSaturation</string>
-			<key>label</key>
-			<string>Saturation of button</string>
+
+			<string>kSCcWhiteOverlayAlpha</string>
+
 		</dict>
 
 		<dict>
@@ -136,6 +420,46 @@
 		</dict>
 
 		<dict>
+
+			<key>cell</key>
+
+			<string>PSSliderCell</string>
+
+			<key>default</key>
+
+			<real>.3</real>
+
+			<key>max</key>
+
+			<real>1</real>
+
+			<key>min</key>
+
+			<real>0</real>
+
+			<key>defaults</key>
+
+			<string>com.thecasle.ccdarkprefs</string>
+
+			<key>showValue</key>
+
+			<true/>
+
+			<key>key</key>
+
+			<string>kSBackgroundDarkening</string>
+
+		</dict>
+
+		<dict>
+
+		   <key>cell</key>
+
+		   <string>PSGroupCell</string>
+
+		</dict>
+
+		<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
@@ -152,35 +476,6 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 		</dict>
-
-		<dict>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>label</key>
-			<string>Respring</string>
-			<key>action</key>
-			<string>respring</string>
-		</dict>
-
-		<dict>
-        		<key>showValue</key>
-        		<true/>
-        		<key>max</key>
-        		<real>1.0</real>
-        		<key>min</key>
-        		<real>0.0</real>
-        		<key>PostNotification</key>
-        	
-<string>com.thecasle.darkcc/reloadprefs</string>
-        		<key>cell</key>
-        		<string>PSSliderCell</string>
-        		<key>default</key>
-        		<real>.3</real>
-        		<key>defaults</key>
-        <string>com.thecasle.darkccprefs</string>
-        		<key>key</key>
-        		<string>kSBackgroundDarkening</string>
-    		</dict>
 
 	</array>
 	<key>title</key>

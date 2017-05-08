@@ -34,7 +34,7 @@ return [[[NSDictionary dictionaryWithContentsOfFile:PLIST_PATH] valueForKey:key]
 @end
 
 %hook CCUIControlCenterSettings
-//this one works, change background
+//this one works, change background .3
 -(void) setBackgroundDarkening: (double) arg1 {
 if(GetPrefBool(@"kBackgroundDarkening")) {
 double sliderValue = GetPrefSlider(@"kSBackgroundDarkening");
@@ -45,48 +45,54 @@ double sliderValue = GetPrefSlider(@"kSBackgroundDarkening");
 %end
 
 %hook NCMaterialSettings
-//works, darkens all cc background color
+//0 darkens all cc background color
 -(void) setDarkenedWhiteAlpha: (double) arg1 {
 if(GetPrefBool(@"kDarkenedWhiteAlpha")) {
-%orig(0);
+double sliderValue = GetPrefSlider(@"kSDarkenedWhiteAlpha");
+%orig(sliderValue);
 } else {
 %orig;
 } }
 
-//this one works (basically blur)
+//this one works (basically blur) 80
 -(void) setBlurRadius: (double) arg1 {
 if(GetPrefBool(@"kBlurRadius")) {
-%orig(80);
+double sliderValue = GetPrefSlider(@"kSBlurRadius");
+%orig(sliderValue);
 } else {
 %orig;
 } }
-//Bubble color, later deal with
+//Bubble color, later deal with 2
 -(void) setSaturation: (double) arg1 {
 if(GetPrefBool(@"kSaturation")) {
-%orig(2);
+double sliderValue = GetPrefSlider(@"kSSaturation");
+%orig(sliderValue);
 } else {
 %orig;
 } }
 
-//White circles lol, works
+//White circles lol, works 0
 -(void) setCutOutOverlayAlpha: (double) arg1 {
 if(GetPrefBool(@"kCutOutOverlayAlpha")) {
-%orig(0);
+double sliderValue = GetPrefSlider(@"kSCutOutOverlayAlpha");
+%orig(sliderValue);
 } else {
 %orig;
 } }
 
-//No background anymore for buttons 
+//No background anymore for buttons 0
 -(void) setCutOutOverlayWhite: (double) arg1 {
 if(GetPrefBool(@"kCutOutOverlayWhite")) {
-%orig(0);
+double sliderValue = GetPrefSlider(@"kSCutOutOverlayWhite");
+%orig(sliderValue);
 } else {
 %orig;
 } }
-//assuming it works
+//assuming it works 1
 -(void) setCcWhiteOverlayAlpha: (double) arg1 {
 if(GetPrefBool(@"kCcWhiteOverlayAlpha")) {
-%orig(1);
+double sliderValue = GetPrefSlider(@"kSCcWhiteOverlayAlpha");
+%orig(sliderValue);
 } else {
 %orig;
 } }
@@ -96,8 +102,9 @@ if(GetPrefBool(@"kCcWhiteOverlayAlpha")) {
 %hook CCUIControlCenterVisualEffect
 -(id) initWithPrivateStyle: (long long) arg1{
 if(GetPrefBool(@"kPrivateStyle")) {
-%orig(1);
-return %orig(1);
+double sliderValue = GetPrefSlider(@"kSPrivateStyle");
+%orig(sliderValue);
+return %orig(sliderValue);
 } else {
 %orig;
 return %orig;

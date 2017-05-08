@@ -1,50 +1,73 @@
+Package: com.antique.minicc
+Version: 1.78
+Section: Tweaks
+Maintainer: Antique
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.antique.minicc_1.78_iphoneos-arm.deb
+Size: 7574
+Installed-Size: 344
+MD5sum: c20c494951b27b5e9d9b78ce247bad74
+Description: Mini Control Center for iOS 10
+Name: MiniCC
+Author: Antique
+Depiction: https://antiquebeta.github.io/minicc.html
+
 Package: com.codesquad.annoyance
 Version: 0.0.1-1+debug
-Architecture: iphoneos-arm
-Maintainer: CodeSquad
-Installed-Size: 120
-Depends: mobilesubstrate
-Filename: ./debs/com.codesquad.annoyance_0.0.1-1+debug_iphoneos-arm.deb
-Size: 4860
-MD5sum: 7c474601b8400a36b5785588441d0159
-SHA1: 367ffd338e042b7d78326eecd2fbe493490d101e
-SHA256: 39edba07b48b1693a069869bb781044b7a0fcc8c708a23fe06bd98d80c94b23c
 Section: Tweaks
+Maintainer: CodeSquad
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.codesquad.annoyance_0.0.1-1+debug_iphoneos-arm.deb
+Size: 4834
+Installed-Size: 120
+MD5sum: 2acf48c970310f19c692b6525dae040a
 Description: Brings a pop-up every time an icon is tapped. EVERY TIME.
+Name: Annoyance
 Author: The_Casle
 Depiction: https://codesquad-beta.github.io/cydia/depic/?p=com.codesquad.Annoyance
-Name: Annoyance
 
 Package: com.codesquad.notifyme
 Version: 0.0.2
-Architecture: iphoneos-arm
-Maintainer: CodeSquad
-Installed-Size: 120
-Depends: mobilesubstrate
-Filename: ./debs/com.codesquad.notifyme_0.0.2_iphoneos-arm.deb
-Size: 5388
-MD5sum: 5a001615a16b426a954fd294336907b9
-SHA1: 57501b6cd3ed9edacb01dcbef4e72f08621546e0
-SHA256: 0410783de53f0cd07ed80e5834e987ba164dc794abf36bf6c8d9f12668448436
 Section: Tweaks
+Maintainer: CodeSquad
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.codesquad.notifyme_0.0.2_iphoneos-arm.deb
+Size: 5354
+Installed-Size: 120
+MD5sum: 02025a3715e6f87152261d467e408422
 Description: Notifies you when restring was successful
+Name: NotifyMe
 Author: The_Casle
 Depiction: https://codesquad-beta.github.io/cydia/depic/?p=com.codesquad.NotifyMe
-Name: NotifyMe
+
+Package: com.yourcompany.searchbar
+Version: 1.3a-2+debug
+Section: Tweaks
+Maintainer: Mobile User
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.yourcompany.searchbar_1.3a-2+debug_iphoneos-arm.deb
+Size: 4908
+Installed-Size: 120
+MD5sum: c8c37ea637883e75d3797af1eada820a
+Description: An awesome MobileSubstrate tweak!
+Name: SearchBar
+Author: Mobile User
 
 Package: com.yourcompany.searchbar
 Version: 1.3a-4+debug
-Architecture: iphoneos-arm
+Section: Tweaks
 Maintainer: Mobile User
-Installed-Size: 120
 Depends: mobilesubstrate
+Architecture: iphoneos-arm
 Filename: ./debs/com.yourcompany.searchbar_1.3a-4+debug_iphoneos-arm.deb
 Size: 3544
+Installed-Size: 120
 MD5sum: 2f7eee1a4b4a756d5a90300164a7598d
-SHA1: 535c3dd3939acf344b52459ffb59ca8821608b2f
-SHA256: 1a78f40d3948a4d4f60b26615d62f15bbe0cedafe10b2ae501f54d9cb77b0939
-Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
-Author: Mobile User
 Name: SearchBar
+Author: Mobile User
 
