@@ -22,7 +22,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/com.codesquad.annoyance_0.0.1-1+debug_iphoneos-arm.deb
 Size: 4834
 Installed-Size: 120
-MD5sum: 2acf48c970310f19c692b6525dae040a
+MD5sum: 5271ef01b28e8725d914d311562b10a9
 Description: Brings a pop-up every time an icon is tapped. EVERY TIME.
 Name: Annoyance
 Author: The_Casle
@@ -37,11 +37,25 @@ Architecture: iphoneos-arm
 Filename: ./debs/com.codesquad.notifyme_0.0.2_iphoneos-arm.deb
 Size: 5354
 Installed-Size: 120
-MD5sum: 02025a3715e6f87152261d467e408422
+MD5sum: 4ae2a568f08a54ab96aa333fb09b790c
 Description: Notifies you when restring was successful
 Name: NotifyMe
 Author: The_Casle
 Depiction: https://codesquad-beta.github.io/cydia/depic/?p=com.codesquad.NotifyMe
+
+Package: com.thecasle.ccdark
+Version: 0.0.1-1+debug
+Section: Tweaks
+Maintainer: the casle
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.thecasle.ccdark_0.0.1-1+debug_iphoneos-arm.deb
+Size: 8950
+Installed-Size: 256
+MD5sum: 27032f5bc0f3f9e8c069983f2905fcb6
+Description: An awesome adjustable dark control center tweak
+Name: ccdark
+Author: the casle
 
 Package: com.yourcompany.searchbar
 Version: 1.3a-2+debug
@@ -52,7 +66,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/com.yourcompany.searchbar_1.3a-2+debug_iphoneos-arm.deb
 Size: 4908
 Installed-Size: 120
-MD5sum: c8c37ea637883e75d3797af1eada820a
+MD5sum: 614ab84ce334ffbbe9e638c8068056fd
 Description: An awesome MobileSubstrate tweak!
 Name: SearchBar
 Author: Mobile User

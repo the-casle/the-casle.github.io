@@ -78,7 +78,11 @@
 
 		   <string>PSGroupCell</string>
 
+			<key>footerText</key>
+			<string>Be careful with this one XD</string>
+
 		</dict>
+
 
 		<dict>
 			<key>cell</key>
@@ -122,9 +126,6 @@
 			<key>key</key>
 
 			<string>kSSaturation</string>
-
-			<key>footerText</key>
-			<string>This... yea I dare you to go over 20</string>
 
 		</dict>
 
@@ -340,14 +341,6 @@
 		</dict>
 
 		<dict>
-
-		   <key>cell</key>
-
-		   <string>PSGroupCell</string>
-
-		</dict>
-
-		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
@@ -473,8 +466,32 @@
 		</dict>
 
 		<dict>
+
+		   <key>cell</key>
+
+		   <string>PSGroupCell</string>
+
+		</dict>
+
+
+		<dict>
 			<key>cell</key>
-			<string>PSGroupCell</string>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Report features or bugs!</string>
+			<key>action</key>
+			<string>debug</string>
+		</dict>
+
+		<dict>
+
+		   <key>cell</key>
+
+		   <string>PSGroupCell</string>
+
+			<key>footerText</key>
+			<string>Property of CodeSquad-beta and the casle, BETA_TWEAK</string>
+
 		</dict>
 
 	</array>
