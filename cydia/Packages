@@ -50,9 +50,9 @@ Maintainer: the casle
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/com.thecasle.ccdark_0.0.1-1+debug_iphoneos-arm.deb
-Size: 8950
+Size: 8986
 Installed-Size: 256
-MD5sum: 27032f5bc0f3f9e8c069983f2905fcb6
+MD5sum: 9e4993f27bc166e2dd451764f947c1a0
 Description: An awesome adjustable dark control center tweak
 Name: ccdark
 Author: the casle
