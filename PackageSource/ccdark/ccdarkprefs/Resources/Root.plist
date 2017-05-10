@@ -362,6 +362,19 @@
 			<key>defaults</key>
 			<string>com.thecasle.ccdarkprefs</string>
 			<key>key</key>
+			<string>kBBackground</string>
+			<key>label</key>
+			<string>Disable Bubble Background</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.thecasle.ccdarkprefs</string>
+			<key>key</key>
 			<string>kCcWhiteOverlayAlpha</string>
 			<key>label</key>
 			<string>Bubble White Alpha?</string>
@@ -469,7 +482,7 @@
 			<key>key</key>
 			<string>kVolumeImage</string>
 			<key>label</key>
-			<string>Volume Icons</string>
+			<string>Volume Icons Disabled</string>
 		</dict>
 
 		<dict>

@@ -1,6 +1,6 @@
 /*
 To do list:
-Get them sliders going
+Get them sliders going @done
 Test if my "fix" causes more bugs
 Beta test
 More features - ccnofloating?
@@ -31,6 +31,9 @@ return [[[NSDictionary dictionaryWithContentsOfFile:PLIST_PATH] valueForKey:key]
 @end
 
 @interface CCUIControlCenterVisualEffect
+@end
+
+@interface CCUIControlCenterButton
 @end
 
 %hook CCUIControlCenterSettings
@@ -130,3 +133,53 @@ if(GetPrefBool(@"kVolumeImage")) {
 -(void) _setTrackImage: (id) arg1{
 }
 %end
+
+%hook CCUIControlCenterButton
+-(void)_updateBackgroundForStateChange {
+if(GetPrefBool(@"kBBackground")) {
+//nothing
+} else {
+%orig;
+} }
+%end
+
+
+@interface CCUIButtonStack
+@property (nonatomic, assign, readwrite) CGFloat alpha;
+@end
+
+
+@interface CCUIControlCenterPushButton
+@property (nonatomic, assign, readwrite) NSNumber *sortKey;
+@end
+
+BOOL setNumberButton;
+NSNumber *one = [[NSNumber alloc] initWithInt: 1];
+
+NSNumber *two = [[NSNumber alloc] initWithInt: 2];
+
+%hook CCUIControlCenterPushButton
+-(void) layoutSubviews{
+%orig;
+if(self.sortKey == one) { 
+setNumberButton = 1;
+} else{
+if(self.sortKey == two) { 
+setNumberButton = 0;
+} } }
+
+%end
+
+%hook CCUIButtonStack
+-(void) layoutSubviews{
+%orig;
+if (setNumberButton == 1){
+self.alpha = 1;
+} else if (setNumberButton == 0){
+self.alpha = .5;
+} else {
+self.alpha = 0;
+}
+}
+%end
+
