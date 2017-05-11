@@ -51,7 +51,7 @@ double sliderValue = GetPrefSlider(@"kSBackgroundDarkening");
 //0 darkens all cc background color
 -(void) setDarkenedWhiteAlpha: (double) arg1 {
 if(GetPrefBool(@"kDarkenedWhiteAlpha")) {
-double sliderValue = GetPrefSlider(@"kSDarkenedWhiteAlpha");
+ double sliderValue = GetPrefSlider(@"kSDarkenedWhiteAlpha");
 %orig(sliderValue);
 } else {
 %orig;
@@ -142,44 +142,45 @@ if(GetPrefBool(@"kBBackground")) {
 %orig;
 } }
 %end
+@interface CCUIButtonModule
+-(BOOL)isEnabled;
+@end 
 
-
-@interface CCUIButtonStack
-@property (nonatomic, assign, readwrite) CGFloat alpha;
+@interface CCUISettingModule : CCUIButtonModule
 @end
 
-
-@interface CCUIControlCenterPushButton
-@property (nonatomic, assign, readwrite) NSNumber *sortKey;
+@interface CCUISettingButtonController
+@property (nonatomic,retain) CCUISettingModule * module; 
+@property (nonatomic, assign) UIView *view;
 @end
 
-BOOL setNumberButton;
-NSNumber *one = [[NSNumber alloc] initWithInt: 1];
+int enableAlpha = GetPrefSlider(@"kSGlyphAlphaEnabled");
 
-NSNumber *two = [[NSNumber alloc] initWithInt: 2];
+%hook CCUISettingButtonController
+-(void)viewDidLayoutSubviews{
+    %orig;
+if(GetPrefBool(@"kGlyphAlpha")) {
+if(self.module != nil){
 
-%hook CCUIControlCenterPushButton
--(void) layoutSubviews{
-%orig;
-if(self.sortKey == one) { 
-setNumberButton = 1;
-} else{
-if(self.sortKey == two) { 
-setNumberButton = 0;
-} } }
+    if([self.module isEnabled] == false){
+self.view.alpha = .4;
 
-%end
-
-%hook CCUIButtonStack
--(void) layoutSubviews{
-%orig;
-if (setNumberButton == 1){
-self.alpha = 1;
-} else if (setNumberButton == 0){
-self.alpha = .5;
-} else {
-self.alpha = 0;
+    } else if([self.module isEnabled] == true){
+self.view.alpha = enableAlpha;
+    }
+}
+}
+}
+-(void) _updateButtonState {
+    %orig;
+if(GetPrefBool(@"kGlyphAlpha")) {
+if(self.module != nil){
+    if([self.module isEnabled] == true){
+self.view.alpha = enableAlpha;
+    } else if([self.module isEnabled] == false){
+self.view.alpha = .4;
+}
+}
 }
 }
 %end
-
