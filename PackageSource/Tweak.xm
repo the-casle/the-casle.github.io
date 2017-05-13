@@ -11,6 +11,7 @@ Status bar based color?
 
 */
 
+
 #define PLIST_PATH @"/private/var/mobile/Library/Preferences/com.thecasle.ccdarkprefs.plist" 
  
 inline bool GetPrefBool(NSString *key)
@@ -45,6 +46,7 @@ myBool = 1;
 }
 return myBool;
 }
+
 
 %hook NCMaterialSettings
 //Blurs CC background
@@ -124,14 +126,11 @@ if (GetKeys(@"VolumeImage")){
 %orig;
 }
 }
-
--(void) _setTrackImage:(id) arg1{
-}
 %end
 
 %hook CCUIControlCenterButton
 -(void) _updateBackgroundForStateChange{
-if (GetKeys(@"BBackground")){
+if (GetKeys(@"BubbleBackground")){
 //nothing
 } else {
 %orig;
@@ -163,19 +162,6 @@ self.view.alpha = .4;
 self.view.alpha = 1;
 }
 }
-}
-}
-%end
-@interface MPAVRoutingTableViewCell
-@property (nonatomic, copy, readwrite) UIColor *textColor;
-@end
-
-%hook MPAVRoutingTableViewCell
--(void) setTintColor:(id) arg1{
-if(GetKeys(@"TintColor")){
-self.textColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:1.0];
-} else {
-%orig;
 }
 }
 %end

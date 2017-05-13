@@ -44,15 +44,15 @@ Author: The_Casle
 Depiction: https://codesquad-beta.github.io/cydia/depic/?p=com.codesquad.NotifyMe
 
 Package: com.thecasle.ccdark
-Version: 0.0.1-1+debug
+Version: 0.0.2-4+debug
 Section: Tweaks
 Maintainer: the casle
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/com.thecasle.ccdark_0.0.1-1+debug_iphoneos-arm.deb
-Size: 8986
-Installed-Size: 256
-MD5sum: 9e4993f27bc166e2dd451764f947c1a0
+Filename: ./debs/com.thecasle.ccdark_0.0.2-4+debug_iphoneos-arm.deb
+Size: 10080
+Installed-Size: 264
+MD5sum: 499ae6216794d2912ee0cde25adb8a5e
 Description: An awesome adjustable dark control center tweak
 Name: ccdark
 Author: the casle

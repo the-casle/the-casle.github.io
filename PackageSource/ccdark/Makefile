@@ -4,7 +4,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = ccdark
 ccdark_FILES = Tweak.xm
-
+ccdark_FRAMEWORKS = UIKit
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
