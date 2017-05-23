@@ -8,7 +8,7 @@ Media text
 Background cc image
 More features - ccnofloating?
 Status bar based color?
-
+Am I adding more than one layer?
 */
 
 #define PLIST_PATH @"/private/var/mobile/Library/Preferences/com.thecasle.ccdarkprefs.plist" 
@@ -46,6 +46,7 @@ myBool = 1;
 return myBool;
 }
 
+
 %hook NCMaterialSettings
 //Blurs CC background
 -(void) setBlurRadius: (double) arg1 {
@@ -54,6 +55,7 @@ if (GetKeys(@"BlurRadius")){
 } else {
 %orig;
 } 
+
 }
 
 -(void) setDarkenedWhiteAlpha: (double) arg1 {
