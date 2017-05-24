@@ -26,6 +26,7 @@ UIVisualEffectView *visualEffectView;
 UIView *artBackground = nil;
 BOOL isDone = 0;
 BOOL isUpdating = 0;
+UIImageView *imageCopy = nil;
 
 BOOL playingBool = 0;
 UIView *backgroundView = nil;
@@ -47,12 +48,14 @@ NSLog(@"update playingBool");
 %end
 
 %hook MPUNowPlayingArtworkView
--(void) layoutSubviews{
+-(void) setArtworkImage: (id) arg1 {
+// -(void) layoutSubviews{
+%orig;
 artBool = self.activated;
-if(artBool || isUpdating){
+// if(artBool || isUpdating){
 NSLog(@"got the art image");
 myImage = self.artworkImage;
-}
+// }
 
 %orig;
 }
@@ -65,13 +68,13 @@ artBounds= MSHookIvar<UIView *>(self, "_baseMaterialView");
 artBackground = MSHookIvar<UIView *>(self, "_baseMaterialView");
 //artView = [[UIView alloc] init];
 artBackground.frame = artBounds.bounds;
+NSLog(@"hook into the original view");
 }
 %end
 
 %hook NCMaterialView
 -(void)layoutSubviews{
 %orig;
-NSLog(@"it worked");
 backgroundView = MSHookIvar<UIView *>(self, "_backdropView");
 }
 %end
@@ -79,7 +82,7 @@ backgroundView = MSHookIvar<UIView *>(self, "_backdropView");
 %hook CCUIControlCenterPageContainerViewController
 -(void)  viewDidLayoutSubviews{
 if(isDone == 0 && artBool == 1){
-NSLog(@"playingBool1 && isDone0 && artBool1");
+NSLog(@"art image is activated");
 self.view.clipsToBounds = YES;
 artBackground.layer.cornerRadius = 13;
 artBackground.layer.masksToBounds = YES;
@@ -95,23 +98,22 @@ imageView.frame = artBackground.bounds;
 [self.view sendSubviewToBack: artView];
 artView.layer.cornerRadius = 13;
 artView.layer.masksToBounds = YES;
-NSLog(@"ayy setup that art!");
+NSLog(@"First initialization of artView");
 
 artView.hidden = NO;
 artBackground.hidden = YES;
 //[self.view addSubview: backgroundView];
 isDone = YES;
 }
-if(playingBool){
-NSLog(@"not hidden");
-}
+
 if(playingBool == 1 && isDone == YES){
 // artView.hidden = YES;
-NSLog(@"SECRET IS FOUND");
+NSLog(@"artView is not hidden, background hidden");
 artView.hidden = NO;
 artBackground.hidden = YES;
 //[artView removeFromSuperview];
 } else {
+NSLog(@"new view is hidden");
 artBackground.hidden = NO;
 artView.hidden = YES;
 }
@@ -119,16 +121,16 @@ artView.hidden = YES;
 } 
 %end
 
-
 %hook SBMediaController
 -(void)_nowPlayingInfoChanged{
 %orig;
-NSLog(@"set the new art");
+NSLog(@"set the new UIImageView with new art");
 isUpdating = 1;
+[imageView removeFromSuperview];
 imageView = nil;
 imageView = [[UIImageView alloc] initWithImage:myImage];
+// imageView.frame = CGRectMake(-26.5,0,357,357);
 imageView.frame = artBackground.bounds;
-[imageView removeFromSuperview];
 [artView addSubview: imageView];
 [artView addSubview:visualEffectView];
 }
