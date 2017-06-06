@@ -2,7 +2,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = Mistique
 Mistique_FILES = Tweak.xm
-Mistique_FRAMEWORKS = UIKit
+Mistique_FRAMEWORKS = UIKit CoreGraphics QuartzCore
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
