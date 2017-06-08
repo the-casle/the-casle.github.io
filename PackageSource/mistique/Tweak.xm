@@ -59,7 +59,6 @@
 @interface SBDarkeningImageView : UIImageView
 @end
 
-
 @interface MPUControlCenterMediaControlsViewController : UIView
 @property  (nonatomic, assign) UIView *view;
 @end
@@ -131,7 +130,6 @@ NSArray *platterViews;
 CCUIControlCenterPagePlatterView *platterView;
 SBMediaController *artUpdate;
 
-
 BOOL playingBool = 0;
 UIView *backgroundView = nil;
 
@@ -162,7 +160,7 @@ UIView *backgroundView = nil;
   imageView = [[UIImageView alloc] initWithImage:myImage];
   imageView.frame = artBackground.bounds;
   [artView addSubview: imageView];
-  [artView addSubview:visualEffectView];
+//  [artView addSubview:visualEffectView];
 }
 %end
 
@@ -196,12 +194,15 @@ UIView *backgroundView = nil;
     imageView = [[UIImageView alloc] initWithImage:myImage];
     imageView.frame = artBackground.bounds;
     [artView addSubview:imageView];
-    [artView addSubview:visualEffectView];
+  //  [artView addSubview:visualEffectView];
     [self addSubview:artView];
     [self sendSubviewToBack: artView];
     artView.layer.cornerRadius = 13;
     artView.layer.masksToBounds = YES;
     artView.hidden = NO;
+    _UIBackdropView *backdrop = MSHookIvar<_UIBackdropView *>(artView, "_backdropView");
+    double blurRadius= MSHookIvar<CGFloat>(backdrop, "_blurRadius");
+    blurRadius = 10;
     isDone = YES;
     NSLog(@"should have updated");
 /*
@@ -247,6 +248,6 @@ isDone = NO;
 -(void) _updateEffects{
 %orig;
 NSLog(@"text color update");
-self.textColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.0];
+self.textColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:1.0];
 }
 %end
