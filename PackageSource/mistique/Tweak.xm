@@ -18,6 +18,7 @@
 @end
 
 @interface SBIconImageView : UIView
+@property (nonatomic, assign) BOOL showsSquareCorners;
 @end
 
 @interface SBIconView : UIView {
@@ -70,7 +71,6 @@
 @property BOOL isPlaying;
 //-(void)_nowPlayingInfoChanged;
 @end
-
 
 @interface MPUNowPlayingArtworkView
 @property  (nonatomic, assign) UIImage *artworkImage;
@@ -129,7 +129,7 @@ _UIBackdropView *backdropView;
 NSArray *platterViews;
 CCUIControlCenterPagePlatterView *platterView;
 SBMediaController *artUpdate;
-
+CGRect ccFrame;
 BOOL playingBool = 0;
 UIView *backgroundView = nil;
 
@@ -149,6 +149,16 @@ UIView *backgroundView = nil;
 - (void)setArtworkImage:(id)arg1 {
   %orig;
   artBool = self.activated;
+
+if(CGRectEqualToRect(artBackground.frame, ccFrame)) {
+//do nothing
+  } else {
+    //ccFrame = artBackground.frame;
+    NSLog(@"orientation change");
+    artView.alpha = 0;
+    
+  }
+
   NSLog(@"update art image ");
   myImage = self.artworkImage;
   color = dominantColorFromIcon(myImage);
@@ -158,9 +168,10 @@ UIView *backgroundView = nil;
   imageView = nil;
   //[artUpdate setArtworkImage:nil];
   imageView = [[UIImageView alloc] initWithImage:myImage];
+  ccFrame = artBackground.bounds;
   imageView.frame = artBackground.bounds;
   [artView addSubview: imageView];
-//  [artView addSubview:visualEffectView];
+  [artView addSubview:visualEffectView];
 }
 %end
 
@@ -194,15 +205,17 @@ UIView *backgroundView = nil;
     imageView = [[UIImageView alloc] initWithImage:myImage];
     imageView.frame = artBackground.bounds;
     [artView addSubview:imageView];
-  //  [artView addSubview:visualEffectView];
+    [artView addSubview:visualEffectView];
     [self addSubview:artView];
     [self sendSubviewToBack: artView];
     artView.layer.cornerRadius = 13;
     artView.layer.masksToBounds = YES;
     artView.hidden = NO;
+/*
     _UIBackdropView *backdrop = MSHookIvar<_UIBackdropView *>(artView, "_backdropView");
     double blurRadius= MSHookIvar<CGFloat>(backdrop, "_blurRadius");
     blurRadius = 10;
+*/
     isDone = YES;
     NSLog(@"should have updated");
 /*
@@ -246,8 +259,26 @@ isDone = NO;
 
 %hook CCUIControlCenterLabel
 -(void) _updateEffects{
-%orig;
-NSLog(@"text color update");
-self.textColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:1.0];
+  %orig;
+  NSLog(@"text color update");
+  self.textColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:1.0];
 }
 %end
+
+/*
+%hook CCUIControlCenterSlider
+-(void) layoutSubviews{
+  %orig;
+  UIImageView *thumbView = MSHookIvar<UIImageView *>(self, "_thumbView");
+  thumbView.hidden = YES;
+}
+%end
+
+
+%hook UIView
+-(void) layoutSubviews{
+  %orig;
+  self.layer.cornerRadius = 0;
+}
+%end
+*/

@@ -1,10 +1,10 @@
 Package: com.thecasle.mistique
-Name: Mistique
+Name: Mystique
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: Album art
 Maintainer: the casle
 Author: the casle
 Section: Tweaks
-Version: 0.0.2-42+debug
+Version: 0.0.2-63+debug
 Installed-Size: 128

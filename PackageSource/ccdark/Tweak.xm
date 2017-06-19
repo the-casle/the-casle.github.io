@@ -4,11 +4,11 @@ Get them sliders going @done
 Test if my "fix" causes more bugs @done
 Beta test @done
 Bug fixes
-Media text
-Background cc image
+Media text @done
+Background cc image @done
 More features - ccnofloating?
 Status bar based color?
-Am I adding more than one layer?
+Am I adding more than one layer? @done
 */
 
 #define PLIST_PATH @"/private/var/mobile/Library/Preferences/com.thecasle.ccdarkprefs.plist" 
