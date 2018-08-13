@@ -1,9 +1,0 @@
-Package: com.thecasle.cancelbutton
-Name: cancelbutton
-Depends: mobilesubstrate
-Version: 0.0.1
-Architecture: iphoneos-arm
-Description: Change the cancel button in spotlight!
-Maintainer: the casle
-Author: the casle
-Section: Tweaks
