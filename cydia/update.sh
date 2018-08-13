@@ -1,8 +1,6 @@
-rm -r Packages.bz2
-rm -r Packages
-dpkg-scanpackages ./debs > Packages
-bzip2 -fks Packages
+#!/bin/bash
 
-git add --all
-git commit -m "$*"
-git push
+rm ./Packages
+dpkg-scanpackages -m ./debs /dev/null > Packages
+rm ./Packages.bz2
+bzip2 -fks Packages
