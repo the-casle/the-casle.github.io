@@ -1,20 +1,21 @@
 Package: com.thecasle.nine
-Version: 0.1.1-494+debug
+Version: 0.1.1-547+debug
 Architecture: iphoneos-arm
 Maintainer: Jake Kaslewicz <jakaslewicz@gmail.com>
 Installed-Size: 4620
 Depends: mobilesubstrate, ws.hbang.common
-Filename: ./debs/com.thecasle.nine_0.1.1-494+debug_iphoneos-arm.deb
-Size: 4308642
-MD5sum: d692463bad96e8b02c7df0b0add46c64
-SHA1: ce61535ea51fd7e7dab9b8afdd3549fe0360b801
-SHA256: 67c21608d0f676c678ecae1ed564142f7af9194c50ca43f1f0e5f181f418f628
+Filename: ./debs/com.thecasle.nine_0.1.1-547+debug_iphoneos-arm.deb
+Size: 4309782
+MD5sum: d3efbc5e1a3cc048366d76389ce7c562
+SHA1: 3ec61de097635b4b824c2ebb65d5153b66bd413d
+SHA256: 8d8e579111d6e810dc2bbce699c0b35afb7b384fa8e85adc3c2b7e69b659620a
 Section: Tweaks
 Description: Reworks the Notification Center
  Beta Features:
  - Clear background
- - Disable banners
+ - Disable banners (needs testing!)
  - Revised customization tab
+ - Palette banner support
 Author: Jake Kaslewicz
 Name: nine
 
