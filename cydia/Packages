@@ -19,3 +19,19 @@ Description: Reworks the Notification Center
 Author: Jake Kaslewicz
 Name: nine
 
+Package: io.ominousness.stackxi
+Version: 0.2.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: Ominousness
+Installed-Size: 232
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debs/io.ominousness.stackxi_0.2.0-1+debug_iphoneos-arm.deb
+Size: 23986
+MD5sum: 7bd12264d355c38c46732719477c4b84
+SHA1: 9c4aac892666bf63ede33a901bc5975739643ec2
+SHA256: 8ad31361b381ead7d3d27d76d4fb9039c80816fefdf538ef1c6e31fdce0bfce4
+Section: Tweaks
+Description: Grouped notifications, iOS 12 style.
+Author: Ominousness
+Name: StackXI
+
