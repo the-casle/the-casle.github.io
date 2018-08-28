@@ -1,14 +1,14 @@
 Package: com.thecasle.nine
-Version: 0.1.1-803+debug
+Version: 0.1.1-816+debug
 Architecture: iphoneos-arm
 Maintainer: Jake Kaslewicz <jakaslewicz@gmail.com>
 Installed-Size: 4628
 Depends: mobilesubstrate, ws.hbang.common
-Filename: ./debs/com.thecasle.nine_0.1.1-803+debug_iphoneos-arm.deb
-Size: 4310774
-MD5sum: e69a00c4bcf0ad53fd4b8aeeb3c67cee
-SHA1: df4176fe5ed7ca53b260cde7c264919e0b3f83ba
-SHA256: 048a0a6437df9f9745542842b2c77014e2ad9364360e0dc95563bd060f70e0ca
+Filename: ./debs/com.thecasle.nine_0.1.1-816+debug_iphoneos-arm.deb
+Size: 4310768
+MD5sum: 2f687fe496ee16a89298fffcc3e9b4ac
+SHA1: e27e5df618165707ad87407d20040b600e32e0a6
+SHA256: ca1bfa6007d76c5dc56964a88c283084fee41d7f196e34c491e3087d3c9c0ab0
 Section: Tweaks
 Description: Reworks the Notification Center
  Beta Features:
