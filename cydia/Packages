@@ -1,14 +1,14 @@
 Package: com.thecasle.nine
-Version: 0.1.1-847+debug
+Version: 0.1.1-879+debug
 Architecture: iphoneos-arm
 Maintainer: Jake Kaslewicz <jakaslewicz@gmail.com>
 Installed-Size: 4632
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), com.creaturesurvive.libcscolorpicker
-Filename: ./debs/com.thecasle.nine_0.1.1-847+debug_iphoneos-arm.deb
-Size: 4310726
-MD5sum: c7f40b51f173b1fa89ecc9ee51647bcf
-SHA1: a87764296513078c7d026f7365fa8480c3618729
-SHA256: 14e49626a03e6a9b946e29dce9097997f1a69019c624cf937323c9a5e3ae0d7b
+Filename: ./debs/com.thecasle.nine_0.1.1-879+debug_iphoneos-arm.deb
+Size: 4311086
+MD5sum: 62eb9cd85bcc3eb3cd91c2144acc96a5
+SHA1: 061cd7e6760ac73bcb24bab3f64bed96ead99017
+SHA256: 4f29681108982990a9e35ba19a7d91656c4922d7d1d0007182435034d0de8528
 Section: Tweaks
 Description: Reworks the Notification Center
  Beta Features:
@@ -18,20 +18,4 @@ Description: Reworks the Notification Center
  - Palette banner support
 Author: Jake Kaslewicz
 Name: nine
-
-Package: io.ominousness.stackxi
-Version: 0.2.0-1+debug
-Architecture: iphoneos-arm
-Maintainer: Ominousness
-Installed-Size: 232
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
-Filename: ./debs/io.ominousness.stackxi_0.2.0-1+debug_iphoneos-arm.deb
-Size: 23986
-MD5sum: 7bd12264d355c38c46732719477c4b84
-SHA1: 9c4aac892666bf63ede33a901bc5975739643ec2
-SHA256: 8ad31361b381ead7d3d27d76d4fb9039c80816fefdf538ef1c6e31fdce0bfce4
-Section: Tweaks
-Description: Grouped notifications, iOS 12 style.
-Author: Ominousness
-Name: StackXI
 
