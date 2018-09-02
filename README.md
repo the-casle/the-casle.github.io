@@ -1,4 +1,4 @@
-# CodeSquad-beta.github.io/Cydia/
+# the-casle.github.io/Cydia/
 Beta repo for CodeSquad team
 BETA TESTING
 
