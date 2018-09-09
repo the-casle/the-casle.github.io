@@ -1,19 +1,17 @@
 Package: com.thecasle.nine
-Version: 0.1.1-1022+debug
+Version: 0.2.0
 Architecture: iphoneos-arm
 Maintainer: Jake Kaslewicz <jakaslewicz@gmail.com>
-Installed-Size: 4668
+Installed-Size: 1784
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), org.thebigboss.libcolorpicker
-Filename: ./debs/com.thecasle.nine_0.1.1-1022+debug_iphoneos-arm.deb
-Size: 4317956
-MD5sum: 490b07fffd40b483ab1f9e3964ac20b6
-SHA1: 170cab54aacb87b5f24efa9caabf3d27965979b0
-SHA256: 846f949e2d518e2f3b2acc8c127f95599d347de42f1380eefcb737e753899b6d
+Filename: ./debs/com.thecasle.nine_0.2.0_iphoneos-arm.deb
+Size: 1493170
+MD5sum: 6abb18aa787498a08a6a2458afbf9461
+SHA1: 9405eed24059b362d9e8062a12a92ad1770d1f2d
+SHA256: 2f83dec8cd05181a5e2421048613d88c9a2d35acf291efb17ee6f50abb9923b3
 Section: Tweaks
-Description: Reworks the Notification Center
- iOS nine Notification Center and lock screen
- - Beta version
- - Finishing the customization
+Description: iOS nine styled Notification Center and lock screen
+ - the casle
 Author: Jake Kaslewicz
 Name: nine
 
