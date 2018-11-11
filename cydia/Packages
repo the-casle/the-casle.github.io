@@ -1,14 +1,14 @@
 Package: com.midnightchips.asteroid
-Version: 0.1-230
+Version: 0.1-142
 Architecture: iphoneos-arm
 Maintainer: midnightchips
-Installed-Size: 544
+Installed-Size: 1016
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences
-Filename: ./debs/com.midnightchips.lockweather_0.1-230_iphoneos-arm.deb
-Size: 47608
-MD5sum: c676f440185639928c959e3e8dcfe33b
-SHA1: 151fcef3ad92cc9b3a3b81832f68e0cfb4d67a87
-SHA256: ec413d17723a1b95f6eca070004c6f1db12560b112a10d72bdd9e1129f095f0f
+Filename: ./debs/com.midnightchips.asteroid_0.1-142_iphoneos-arm.deb
+Size: 76540
+MD5sum: f3a1ad4964b5149d4f7701d40fdb9f8e
+SHA1: c1188b3475d9fb98c6ac050c5cc7bb6120cf1d2b
+SHA256: 591839b94fa081a22de0c35337c4c477c81431512ff847bcfed26a6089cf208e
 Section: Tweaks
 Priority: optional
 Description: An awesome MobileSubstrate tweak!
