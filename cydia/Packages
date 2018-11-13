@@ -1,14 +1,14 @@
 Package: com.midnightchips.asteroid
-Version: 0.1-142
+Version: 0.1-168
 Architecture: iphoneos-arm
 Maintainer: midnightchips
-Installed-Size: 1016
+Installed-Size: 880
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences
-Filename: ./debs/com.midnightchips.asteroid_0.1-142_iphoneos-arm.deb
-Size: 76540
-MD5sum: f3a1ad4964b5149d4f7701d40fdb9f8e
-SHA1: c1188b3475d9fb98c6ac050c5cc7bb6120cf1d2b
-SHA256: 591839b94fa081a22de0c35337c4c477c81431512ff847bcfed26a6089cf208e
+Filename: ./debs/com.midnightchips.asteroid_0.1-168_iphoneos-arm.deb
+Size: 76370
+MD5sum: 27f1fac0b23b853bd5290fd8924eeef6
+SHA1: 41b6c916ae39b4c32ec93459f519b39865ce32b9
+SHA256: 5c292e1be1ead9427d3ccd9e36fcf78444b6ea70ba95c21651de3d6b140d1850
 Section: Tweaks
 Priority: optional
 Description: An awesome MobileSubstrate tweak!
