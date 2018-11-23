@@ -17,16 +17,16 @@ Depiction: https://creaturesurvive.github.io/repo/packages/libcsweather/depictio
 Name: libCSWeather
 
 Package: com.midnightchips.asteroid
-Version: 0.1-221
+Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: midnightchips
-Installed-Size: 1016
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturecoding.libcsweather (>= 0.6.0b-35)
-Filename: ./debs/com.midnightchips.asteroid_0.1-221_iphoneos-arm.deb
-Size: 79590
-MD5sum: 9d698e13ed222cb8760ba6b40d373ffb
-SHA1: e9eac2395132908a18bcd12aa19fe24cfffdb435
-SHA256: 34586d40dc90b865e658b3a908a7e0104eea1cb8c89943ef9277df4a8cdd4413
+Installed-Size: 1052
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturecoding.libcsweather (>= 0.6.0b-35)
+Filename: ./debs/com.midnightchips.asteroid_1.0-1_iphoneos-arm.deb
+Size: 95906
+MD5sum: 731a97b321ef3642fa7dabccfe0f6ad9
+SHA1: 877824c3b66bffbad644b92636390da18189cd74
+SHA256: 170ef7bc776b213545440a12240a6d071852a54aa9516d7c39ac1d733910bc04
 Section: Tweaks
 Priority: optional
 Description: An awesome MobileSubstrate tweak!
