@@ -17,21 +17,21 @@ Depiction: https://creaturesurvive.github.io/repo/packages/libcsweather/depictio
 Name: libCSWeather
 
 Package: com.midnightchips.asteroid
-Version: 1.0-172
+Version: 1.0-415
 Architecture: iphoneos-arm
-Maintainer: midnightchips
-Installed-Size: 1100
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturecoding.libcsweather (>= 0.6.0b-35)
-Filename: ./debs/com.midnightchips.asteroid_1.0-172_iphoneos-arm.deb
-Size: 98882
-MD5sum: 108d527ec555a081af86b731483168d3
-SHA1: 264c69f85586bc1206134c38215c2f47c735942e
-SHA256: 4aace5b65aac8c3b22eccd9f64a609e3b8d1337a458db6e1fd284fc85fd5013a
+Maintainer: midnightchips & the casle
+Installed-Size: 1572
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker
+Filename: ./debs/com.midnightchips.asteroid_1.0-415_iphoneos-arm.deb
+Size: 721132
+MD5sum: 26eb73ecca607d6edc11c5154b478053
+SHA1: 4f1f8b3264d407e96ec7f4b14e1688b5b3d0914c
+SHA256: 6e50948594571765b54e75898e05ea421ded4930916f4ecaec31e1e0fce5ca57
 Section: Tweaks
 Priority: optional
-Description: An awesome MobileSubstrate tweak!
-Author: midnightchips
-Dev: midnightchips
+Description: System-wide weather tweak.
+Author: midnightchips & the casle
+Dev: midnightchips & the casle
 Name: Asteroid
 
 Package: com.thecasle.nine
