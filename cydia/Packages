@@ -17,19 +17,19 @@ Depiction: https://creaturesurvive.github.io/repo/packages/libcsweather/depictio
 Name: libCSWeather
 
 Package: com.midnightchips.asteroid
-Version: 1.0-415
+Version: 1.2-62
 Architecture: iphoneos-arm
 Maintainer: midnightchips & the casle
-Installed-Size: 1572
+Installed-Size: 1612
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker
-Filename: ./debs/com.midnightchips.asteroid_1.0-415_iphoneos-arm.deb
-Size: 721132
-MD5sum: 26eb73ecca607d6edc11c5154b478053
-SHA1: 4f1f8b3264d407e96ec7f4b14e1688b5b3d0914c
-SHA256: 6e50948594571765b54e75898e05ea421ded4930916f4ecaec31e1e0fce5ca57
+Filename: ./debs/com.midnightchips.asteroid_1.2-62_iphoneos-arm.deb
+Size: 705124
+MD5sum: fb798cd38422536057e4d05367880a56
+SHA1: c59dd255d35a2d9e5d12c2ffb0c73490e512e191
+SHA256: 9a1f6953863c900b3bb188cdb420ddc65bd8a7c5dd74de63a7c42734ec0bdac8
 Section: Tweaks
 Priority: optional
-Description: System-wide weather tweak.
+Description: System-Wide Weather.
 Author: midnightchips & the casle
 Dev: midnightchips & the casle
 Name: Asteroid
