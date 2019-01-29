@@ -51,3 +51,19 @@ Description: iOS nine styled Notification Center and lock screen
 Author: Jake Kaslewicz
 Name: nine
 
+Package: com.thecasle.rightclock
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Jake Kaslewicz
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.thecasle.rightclock_0.0.1_iphoneos-arm.deb
+Size: 3834
+MD5sum: aaeec368b2339439c83953f60643f771
+SHA1: 2dbbd695b60bd57c3d71e34b3386923b0e978579
+SHA256: 2dc39af64161d721c003f0c3139d9679756c453a12e056e3a5d74e9d278ce259
+Section: Tweaks
+Description: Aligns lock screen time to right
+Author: Jake Kaslewicz
+Name: Right Clock
+
