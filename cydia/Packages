@@ -35,6 +35,23 @@ Dev: midnightchips & the casle
 Name: Asteroid
 
 Package: com.thecasle.nine
+Version: 0.2.0
+Architecture: iphoneos-arm
+Maintainer: Jake Kaslewicz <jakaslewicz@gmail.com>
+Installed-Size: 1784
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), org.thebigboss.libcolorpicker
+Filename: ./debs/com.thecasle.nine_0.2.0_iphoneos-arm.deb
+Size: 1493170
+MD5sum: 6abb18aa787498a08a6a2458afbf9461
+SHA1: 9405eed24059b362d9e8062a12a92ad1770d1f2d
+SHA256: 2f83dec8cd05181a5e2421048613d88c9a2d35acf291efb17ee6f50abb9923b3
+Section: Tweaks
+Description: iOS nine styled Notification Center and lock screen
+ - the casle
+Author: Jake Kaslewicz
+Name: nine
+
+Package: com.thecasle.nine
 Version: 0.2.4
 Architecture: iphoneos-arm
 Maintainer: Jake Kaslewicz <jakaslewicz@gmail.com>
