@@ -17,22 +17,38 @@ Depiction: https://creaturesurvive.github.io/repo/packages/libcsweather/depictio
 Name: libCSWeather
 
 Package: com.midnightchips.asteroid
-Version: 1.3.5
+Version: 2.0.5
 Architecture: iphoneos-arm
 Maintainer: midnightchips & the casle
-Installed-Size: 1388
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker
-Filename: ./debs/com.midnightchips.asteroid_1.3.5_iphoneos-arm.deb
-Size: 675884
-MD5sum: 85bca62e7ce7e8ae4ec98579fa166385
-SHA1: b09fd0eaeb3c6f48dac0399cdfe4515eaf802a05
-SHA256: c78414ae7d70406d88663374c57fe089c38dd2688585f861855312d11df2c1f1
+Installed-Size: 8072
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker, com.thecasle.astsetup
+Filename: ./debs/com.midnightchips.asteroid_2.0.5_iphoneos-arm.deb
+Size: 6449188
+MD5sum: cd6aaf4b1b9d80f5d497b94fa7d22b29
+SHA1: a534ed8887d38f8325b76a288f71852b45888c97
+SHA256: a8498079b3d4a8237f8e8260598351c6dfad8a412b2629ae09ac3418ab77d910
 Section: Tweaks
 Priority: optional
 Description: System-Wide Weather.
 Author: midnightchips & the casle
 Dev: midnightchips & the casle
 Name: Asteroid
+
+Package: com.thecasle.astsetup
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: Jake Kaslewicz
+Installed-Size: 356
+Filename: ./debs/com.thecasle.astsetup_0.0.5_iphoneos-arm.deb
+Size: 62778
+MD5sum: 4a597ed2eeae3f596ce36fa47b0c42b8
+SHA1: 8d34d395105e1c8f257c9db2f9ea33596184dc59
+SHA256: f57ce89fb3f537fcd19ecce3c2d6f72e7c9448d9c4cce2f790cf489d49512924
+Section: System
+Description: Setup framework for developers.
+Tag: role::developer
+Author: Jake Kaslewicz
+Name: astSetup
 
 Package: com.thecasle.nine
 Version: 0.2.0
