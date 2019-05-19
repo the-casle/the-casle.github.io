@@ -51,15 +51,15 @@ Author: Jake Kaslewicz
 Name: astSetup
 
 Package: com.thecasle.missito
-Version: 0.0.5-23+debug
+Version: 0.0.5-29+debug
 Architecture: iphoneos-arm
 Maintainer: Jake Kaslewicz
 Installed-Size: 1052
-Filename: ./debs/com.thecasle.missito_0.0.5-23+debug_iphoneos-arm.deb
-Size: 236290
-MD5sum: 3e655135affc6b3b637b83a0db982459
-SHA1: 744e3db3e0f02e918e3f307662e39e0aab0691f9
-SHA256: 233963bfffe4a5cfad9a6516df6d74799278370c8c5b5cb00eeaad48a9634831
+Filename: ./debs/com.thecasle.missito_0.0.5-29+debug_iphoneos-arm.deb
+Size: 236614
+MD5sum: 7e657ad16606b155318e94f599209f5f
+SHA1: 9c2f998a8366d3dfaa1f3b29a616c2097c4355ba
+SHA256: 1ff8e396110f1bd0d0c9691be6bbf86d9fecf349766e542afc509c335aed4d22
 Section: Utilities
 Description: Preference Manager
 Author: Jake Kaslewicz
