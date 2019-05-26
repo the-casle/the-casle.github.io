@@ -1,7 +1,7 @@
 <package>
 	<id>com.thecasle.missito</id>
 	<name>Missito</name>
-	<version>0.1.3</version>
+	<version>0.1.4</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
