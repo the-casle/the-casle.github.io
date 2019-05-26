@@ -1,0 +1,11 @@
+Package: com.codesquad.notifyme
+Name: NotifyMe
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Depiction: https://codesquad-beta.github.io/cydia/depic/?p=com.codesquad.NotifyMe
+Description: Notifies you when restring was successful
+Maintainer: CodeSquad
+Author: The_Casle
+Section: Tweaks
+Version: 0.0.2
+Installed-Size: 120
