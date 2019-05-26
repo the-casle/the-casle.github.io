@@ -17,6 +17,10 @@
 		</description>
 	</descriptionlist>
 	<screenshots>
+        Root.png
+        Bundle.png
+        Menu.png
+        Preference.png
 	</screenshots>
 	<changelog>
 		<change>Inital Release</change>
