@@ -1,13 +1,13 @@
 Package: com.thecasle.missito
-Version: 0.1.1
+Version: 0.1.2
 Architecture: iphoneos-arm
 Maintainer: Jake Kaslewicz
 Installed-Size: 880
-Filename: ./debs/com.thecasle.missito_0.1.1_iphoneos-arm.deb
-Size: 222170
-MD5sum: 7c04f7bc9138bc768ec0dfec4f030d47
-SHA1: f2b72861de01ecf482cffbd419dada9bf86292e1
-SHA256: 92ac8197b23537a27ccc12eb0c0db6dc422cb5325005cccb6f4976a2e3cee242
+Filename: ./debs/com.thecasle.missito_0.1.2_iphoneos-arm.deb
+Size: 222292
+MD5sum: 36f5e3f34578527cfde763972d2f8573
+SHA1: 6de1fb56b58ac1c50b04a857154ef6007f232924
+SHA256: f3050bf9fee5fba060cc06a7e4449d20687eedc2e25311caf43ac3a57fb4670b
 Section: Utilities
 Description: Preference Manager
 Author: Jake Kaslewicz
