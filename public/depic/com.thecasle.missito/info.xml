@@ -17,10 +17,23 @@
 		</description>
 	</descriptionlist>
 	<screenshots>
-        Root.png
-        Bundle.png
-        Menu.png
-        Preference.png
+        <screenshot>
+            <description>Installed Preferences</description>
+            <image>Root.png</image>
+        </screenshot>
+        <screenshot>
+            <description>Saving</description>
+            <image>Preference.png</image>
+        </screenshot>
+        <screenshot>
+            <description>Bundling</description>
+            <image>Bundle.png</image>
+        </screenshot>
+        <screenshot>
+            <description>Info</description>
+            <image>Menu.png</image>
+        </screenshot>
+
 	</screenshots>
 	<changelog>
 		<change>Inital Release</change>
