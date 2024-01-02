@@ -1,15 +1,23 @@
 {% assign entries = site[include.collection] %}
 
 {% if include.sort_by %}
-  {% assign entries = entries | sort: include.sort_by %}
+    {% assign entries = entries | sort: include.sort_by %}
 {% endif %}
 
 {% if include.sort_order == 'reverse' %}
-  {% assign entries = entries | reverse %}
+    {% assign entries = entries | reverse %}
 {% endif %}
 
-{%- for post in entries -%}
-  {%- unless post.hidden -%}
-    {% include archive-single.html %}
-  {%- endunless -%}
-{%- endfor -%}
+{% for post in entries %}
+    {% if include.filter_tag %}
+        {% if post.tags contains include.filter_tag %}
+            {% unless post.hidden %}
+                {% include archive-single.html %}
+            {% endunless %}
+        {% endif %}
+    {% else %}
+        {% unless post.hidden %}
+            {% include archive-single.html %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
