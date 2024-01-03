@@ -4,6 +4,5 @@ title: "About"
 author_profile: true
 toc: true
 ---
-
-## Hello it is me, Jake Kaslewicz
-How do you do today?
+What do I like to do in my free time.
+I like to run. Also snowboarding. I like to learn about new programming languages in my free time. 
