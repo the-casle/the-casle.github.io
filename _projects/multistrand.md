@@ -1,8 +1,8 @@
 ---
-title: "multistrand"
+title: "Multistrand"
 layout: single
 header:
-  teaser: path-to-teaser-image.jpg
+  teaser: /assets/images/multistrand.png
 excerpt: "Little info about multistrand"
 tags:
   - featured

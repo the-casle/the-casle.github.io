@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Jake Kaslewicz"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Portfolio" # site tagline that appears below site title in masthead
 name                     : "Jake Kaslewicz"
-description              : "About me and project portfolio."
+description              : "Jake Kaslewicz Portfolio and Resume."
 url                      : "https://the-casle.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               :  "the-casle/the-casle.github.io"
@@ -105,14 +105,11 @@ analytics:
 # Site Author
 author:
   name             : "Jake Kaslewicz"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer."
+  avatar           : "/assets/images/profile.jpeg"
+  bio              : "Software Engineer"
   location         : "Minneapolis, Minnesota"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jake.kaslewicz@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -131,10 +128,15 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jake.kaslewicz@gmail.com"
 # Site Footer
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/jake-kaslewicz"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
