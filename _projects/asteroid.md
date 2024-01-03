@@ -3,20 +3,25 @@ title: "Asteroid"
 layout: single
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_blur: "30px"
+  overlay_filter: "0.6"
+  overlay_blur: "25px"
   overlay_image: /assets/images/asteroid.png
   alt: "Placeholder"
   actions:
     - label: "GitHub"
       url: "https://github.com/midnightchip/Asteroid"
+      new_tab: true
     - label: "Dynastic Development"
       url: "https://repo.dynastic.co/com.midnightchips.asteroid/"
+      new_tab: true
   teaser: /assets/images/asteroid.png
-excerpt: "iOS jailbreak tweak implementing weather ui System-Wide"
+excerpt: "iOS jailbreak tweak implementing weather UI System-Wide"
 tags:
   - featured
 
 author_profile: true
 ---
-This is a cool project because blah blah
+
+Asteroid allows displaying live animations of the weather on the Home Screen, 
+Lock Screen and Weather App. Options configured in settings.
+

@@ -3,7 +3,8 @@ layout: collection
 title: "Hi there"
 header:
     overlay_color: "#000"
-    overlay_filter: "0.3"
+    overlay_filter: "0.4"
+    overlay_blur: "5px"
     overlay_image: /assets/images/banner.png
     alt: "Placeholder"
     actions:
