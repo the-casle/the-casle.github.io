@@ -20,6 +20,7 @@
 
 .archive__item {
   position: relative;
+  height: 100%;
 
   a {
     position: relative;
@@ -149,65 +150,17 @@
   }
 }
 
+.entries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
 .grid__item {
-  margin-bottom: 2em;
-
-  @include breakpoint($small) {
-    float: left;
-    width: span(5 of 10);
-
-    &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-    }
-
-    &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-    }
-  }
-
-  @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
-    width: span(3 of 12);
-
-    &:nth-child(2n + 1) {
-      clear: none;
-    }
-
-    &:nth-child(4n + 1) {
-      clear: both;
-    }
-
-    &:nth-child(4n + 2) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-
-    &:nth-child(4n + 3) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-
-    &:nth-child(4n + 4) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-  }
-
-  .page__meta {
-    margin: 0 0 4px;
-    font-size: 0.6em;
-  }
-
-  .page__meta-sep {
-    display: block;
-
-    &::before {
-      display: none;
-    }
-  }
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: $border-radius;;
+  background-color: $footer-background-color;
 
   .archive__item-title {
     margin-top: 0.5em;
