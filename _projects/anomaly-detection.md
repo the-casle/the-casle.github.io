@@ -25,8 +25,16 @@ rolling windowing as input.
 The STM would then flash a light when anomalies were detected. Completely on the edge so no interent connection
 was required when live.
 
+Communicated accelerometer data via SPI to the STM32. 
+
+{% include figure image_path="/assets/images/anomaly-setup.JPG" alt="this is a placeholder image" caption="The design." %}
+
+
 Varied n-th percentile of error distribution to determine what worked best for the system training data as threshold for reconstruction error in order
 to identify anomalies. 
+
+{% include video id="1E3eyIoXIKWs4LIJWtd0HVBItE_fRH6jv" provider="google-drive" %}
+
 
 Vary the percentile used as threshold affects the precision and recall of the system. This is important
 because for anomaly detection, it is often more important for the monitoring system to have false postiives

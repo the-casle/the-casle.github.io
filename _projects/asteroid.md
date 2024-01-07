@@ -4,7 +4,7 @@ layout: single
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
-  overlay_blur: "25px"
+  overlay_blur: "10px"
   overlay_image: /assets/images/asteroid.png
   alt: "Placeholder"
   actions:
@@ -27,7 +27,8 @@ Asteroid allows displaying live animations of the weather on the Home Screen,
 Lock Screen and Weather App. The project utilizes private frameworks.
 
 Multiple moving parts ranging from the weathermodel we designed to the gesture interface
-for advanced customization.
+for advanced customization. Frontend UI and UX considerations as well as multiple backend components
+interacting with Apple's own system.
 
 Used objective-c because this is the primary langauge of Apple's underlying system. 
 Logos was used for tweak injection
@@ -35,6 +36,11 @@ Logos was used for tweak injection
 What your application does,
 Why you used the technologies you used,
 Some of the challenges you faced and features you hope to implement in the future.
+
+Since most of the tweak injection occured on Apple's private classes, we had to use the Ghidra tool
+to dump headers. The lack of documentation made the entire project more difficult than standard
+app development, but this was not our first iOS tweak and we were both comfortable working with
+many of the classes in Apple's Springboard.
 
 {% include figure image_path="/assets/images/white.png" alt="this is a placeholder image" 
 caption="Above shows one possible setup for the lockscreen." %}
