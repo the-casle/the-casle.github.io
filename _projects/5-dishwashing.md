@@ -1,6 +1,7 @@
 ---
 title: "Analyzing Dishwashing Loads"
 layout: single
+permalink: /dishwashing/
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
@@ -11,6 +12,7 @@ header:
 excerpt: "Optimizing dishwashing through intelligent load analysis."
 
 author_profile: true
+order: 6
 ---
 
 During my internship at Ecolab, I had the opportunity to participate in a hackathon where my team and I leveraged Microsoft Azure and TensorFlow to develop a series of computer vision models. These models were trained on standard dishwashing loads to identify and classify objects within the frame.

@@ -1,6 +1,7 @@
 ---
 title: "Hyper Sonic Glide Vehicle"
 layout: single
+permalink: /hgv/
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
@@ -14,6 +15,7 @@ header:
   caption: "[**NASA**](https://www.nasa.gov/reference/x-43a/)"
 excerpt: "CUDA implementation of Hyper Sonic Glide Vehicle simulations"
 author_profile: true
+order: 4
 ---
 
 In this project, we transformed a serialized version of a hypersonic glide vehicle trajectory simulation, originally written in Fortran, into C code. This conversion was driven by our familiarity with C and our goal to leverage its capabilities for our objectives.

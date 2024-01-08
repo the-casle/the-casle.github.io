@@ -2,7 +2,13 @@
 permalink: /about/
 title: "About"
 author_profile: true
-toc: true
+toc: false
 ---
-What do I like to do in my free time.
-I like to run. Also snowboarding. I like to learn about new programming languages in my free time. 
+Currently, I'm a Research Assistant at the University of Minnesota.
+
+When I'm not in class or working on research I like to run. It's a good de-stressor and also gives my day some schedule.
+
+Since I live in Minnesota, I like to take advantage of the snow in the winter and go snowboarding at my local hills. My brother lives in Colorado, and sometimes I'll visit him if I want to ride on something other than ice.
+
+I also like to read books, some fantasy and some technical. The book I'm currently reading is *Effective Modern C++* by Scott Meyers. I would highly recommend his series on C++.
+

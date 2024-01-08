@@ -1,5 +1,6 @@
 ---
 title: "Anomaly Detection"
+permalink: /anomaly-detection/
 layout: single
 header:
   overlay_color: "#000"
@@ -10,6 +11,7 @@ header:
   #teaser: /assets/images/asteroid.png
 excerpt: "Implementing TensorFlow for efficient anomaly detection on edge devices."
 author_profile: true
+order: 2
 ---
 
 In this project I utilized TensorFlow, a machine learning tool, for detection of anomalies in the vibrational data of devices indicating potential failure points. The challenge was deploying this detection model on edge devices constrained by limited memory and processing capabilities.

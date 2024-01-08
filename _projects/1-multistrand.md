@@ -1,5 +1,6 @@
 ---
 title: "Multistrand"
+permalink: /multistrand/
 layout: single
 header:
   overlay_color: "#000"
@@ -14,6 +15,7 @@ header:
   #teaser: /assets/images/asteroid.png
 excerpt: "Nucleic Acids Kinetic Simulator"
 author_profile: true
+order: 1
 ---
 
 Multistrand is a sophisticated nucleic acid kinetics simulator crucial for studying nanomachines and various sequence-level simulations. The tool emphasizes the often-overlooked kinetics of DNA, highlighting not only its chemical reactivity but also its physical properties, which are vital in understanding DNA behaviors and interactions.

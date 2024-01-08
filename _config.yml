@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : "Projects" # site tagline that appears below site title in masthead
 name                     : "Jake Kaslewicz"
 description              : "Jake Kaslewicz Portfolio and Resume."
-url                      : "https://the-casle.github.io"
+url                      : "https://jake-kaslewicz.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               :  "the-casle/the-casle.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -98,7 +98,7 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-VET9F3XCET"
+    tracking_id          : "G-2QV7PMQF0H"
     anonymize_ip         : true # false (default)
 
 

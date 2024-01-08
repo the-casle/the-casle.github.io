@@ -1,6 +1,7 @@
 ---
 title: "Asteroid"
 layout: single
+permalink: /asteroid/
 header:
   overlay_color: "#000"
   overlay_filter: "0.6"
@@ -18,6 +19,7 @@ header:
 excerpt: "iOS jailbreak tweak."
 
 author_profile: true
+order: 3
 ---
 
 Asteroid brings live weather animations to the Home Screen, Lock Screen, and Status bar of iOS devices. This dynamic project utilizes private frameworks and incorporates a weather model with gesture interfaces for advanced customization. It is the result of a collaboration with Chip from iDeviceHacked and integrates frontend UI/UX design with robust backend systems, ensuring seamless interaction with Apple's native environment. With contributions from international users, the project boasts localization in over 10 different languages.
