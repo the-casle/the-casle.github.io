@@ -15,42 +15,23 @@ header:
       url: "https://repo.dynastic.co/com.midnightchips.asteroid/"
       new_tab: true
   #teaser: /assets/images/asteroid.png
-excerpt: "iOS jailbreak tweak implementing weather UI System-Wide"
-tags:
-  - featured
+excerpt: "iOS jailbreak tweak."
 
 author_profile: true
 ---
-**Concurrent Users:** 110,000
 
-Asteroid allows displaying live animations of the weather on the Home Screen, 
-Lock Screen and Weather App. The project utilizes private frameworks.
+Asteroid brings live weather animations to the Home Screen, Lock Screen, and Status bar of iOS devices. This dynamic project utilizes private frameworks and incorporates a weather model with gesture interfaces for advanced customization. It is the result of a collaboration with Chip from iDeviceHacked and integrates frontend UI/UX design with robust backend systems, ensuring seamless interaction with Apple's native environment. With contributions from international users, the project boasts localization in over 10 different languages.
 
-Multiple moving parts ranging from the weathermodel we designed to the gesture interface
-for advanced customization. Frontend UI and UX considerations as well as multiple backend components
-interacting with Apple's own system.
+{% include figure image_path="/assets/images/white.png" alt="Asteroid Lockscreen Setup" caption="Above shows one possible setup for the lockscreen." %}
 
-Used objective-c because this is the primary langauge of Apple's underlying system. 
-Logos was used for tweak injection
+Developed primarily in Objective-C++ for integration with iOS backend, Asteroid also employs Logos for tweak injection. During development, the tool Ghidra was used to navigate Apple's private, minimally documented classes. This technical approach ensures a smooth and effective tweak implementation.
 
-What your application does,
-Why you used the technologies you used,
-Some of the challenges you faced and features you hope to implement in the future.
+For organization of the project, we used GitHub's Project panel (now called Tasklists) for a Kanban-style workflow. Given the small team size, this approach facilitated efficient task management and collaborative work. Initial releases underwent alpha/beta testing phases for robust bug identification and resolution.
 
-Since most of the tweak injection occured on Apple's private classes, we had to use the Ghidra tool
-to dump headers. The lack of documentation made the entire project more difficult than standard
-app development, but this was not our first iOS tweak and we were both comfortable working with
-many of the classes in Apple's Springboard.
+Asteroid was deployed on Dynastic Development, a popular tweak code repository. Asteroid reached over 100,000 active users, contributing towards the total of 200,000 active users across all our jailbreak tweaks. Its significant user base highlights the success and scale of the project.
 
-{% include figure image_path="/assets/images/white.png" alt="this is a placeholder image" 
-caption="Above shows one possible setup for the lockscreen." %}
+Navigating Apple's private classes and the lack of public documentation presented significant challenges. However, our familiarity with the iOS backend from previous tweaks and the Springboard system enabled us to effectively deliver a functional and innovative product.
 
-Why did we do this? Initially we wanted to replicate the look of the newly released wakeup
-screen that apple introduced in iOS 12. However, we thought there were many missing features for 
-this implementation. The largest being the live weather icon. Many of the stock iOS icons report 
-live information (insert calender or clock). The weather app is a logical stock app that should
-report its information live. In the form of an updating temperature and glyph.
+Inspired by the wake-up screen in iOS 12, Asteroid aims to fill the gaps left by Apple's implementation, most notably through a live weather icon for the weather app. By integrating live temperature updates and glyphs, the project adds functional and aesthetic value, enhancing the user's interface experience.
 
-Looking back now, you can see that while Apple typically implements jailbreak tweaks,
-this was something that was never implemented.
-
+While some ideas from the jailbreak community have been adopted by Apple, the unique features of Asteroid are yet to be incorporated. Moving forward, we aim to refine the user experience, add more customizable features, and improve system responsiveness and accuracy. Continuous user feedback will guide further enhancements, ensuring Asteroid remains a preferred choice for users desiring a dynamic and informative iOS interface.

@@ -1,9 +1,9 @@
 ---
 permalink: /education/
 title: "Education"
+layout: single
 author_profile: true
-toc: false
-classes: wide
+toc: true
 ---
 This page shows off some of the relevant coursework and achievements I received over my academic career.
 

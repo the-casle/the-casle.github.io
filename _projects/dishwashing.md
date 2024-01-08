@@ -1,33 +1,24 @@
 ---
 title: "Analyzing Dishwashing Loads"
 layout: single
-excerpt: "Dishwashing blah blah"
-tags:
-    - ecolab
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.4"
+  overlay_blur: "10px"
+  overlay_image: /assets/images/sql.jpg
+  alt: "Placeholder"
+  caption: "[vecteezy](https://www.vecteezy.com/)"
+excerpt: "Optimizing dishwashing through intelligent load analysis."
+
+author_profile: true
 ---
 
-During my internship at Ecolab I participated in 
-a hackathon. My group utiilzed azure and tensorflow to create a variety of
-computer vision models.
+During my internship at Ecolab, I had the opportunity to participate in a hackathon where my team and I leveraged Microsoft Azure and TensorFlow to develop a series of computer vision models. These models were trained on standard dishwashing loads to identify and classify objects within the frame.
 
-They were trained on standard dishwashing loads
-and were used to identify and classify objects in the frame.
-The system was designed to take pictures of the load 
-and determine the correct run time, water temperature, and
-soap to be dispensed for the detected dishes. This was important
-because smaller loads with different materials such as glasses
-need different treatment than an entire load of plates. Since
-Ecolab is focussed on environment sustainability, the motivating
-factor was to minimize water usage for dishwashing loads that don't need it.
+The system we designed captures images of the dishwashing load and determines the optimal run time, water temperature, and soap quantity for the detected dishes. This intelligent detection is for different load types as they require varying treatment levels. This innovation was driven by Ecolab's commitment to environmental sustainability, aiming to minimize water usage and ensure efficient cleaning for each unique load.
 
-{% include figure image_path="/assets/images/dishes.JPG" alt="Image Detection" caption="Object Detection
-and classification of dishwashing loads." %}
+{% include figure image_path="/assets/images/dishes.JPG" alt="Image Detection" caption="Object Detection and classification of dishwashing loads." %}
 
+This project was my introduction to working with Microsoft Azure's SQL databases, significantly enhancing my understanding of cloud storage systems. We faced challenges in tuning the hyperparameters of our models and managing training times. Despite these obstacles, our team's dedication and hard work paid off as we were awarded 2nd place out of 12 teams.
 
-This was my first experience working with Microsoft Azure's SQL databases, and I felt that 
-I learned more about the storage system after this project.
-
-Some challenges we faced was tuning hyperpameters of our models,
-as well as training times. 
-
-We were proud of our work in the end, and we got 2nd place out of 12 different groups.
+Reflecting on this experience, the project not only allowed me to deepen my technical expertise in machine learning and cloud databases but also demonstrated the impactful application of technology in promoting sustainability and efficiency in commercial settings.

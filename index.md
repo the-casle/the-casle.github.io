@@ -11,7 +11,8 @@ header:
       - label: "Projects"
         url: "#featured-projects"
     caption: "[**PNGTree**](https://pngtree.com/)"
-excerpt: "My name is Jake Kaslewicz. I'm a software engineer specialized in Machine Learning and High Performance Computing (HPC)"
+excerpt: "My name is Jake Kaslewicz. I'm a software engineer looking for positions in machine learning, cuda programming, or high performance computing. 
+My favorite languages are C++ and Python."
 author_profile: true
 collection: projects
 entries_layout: grid

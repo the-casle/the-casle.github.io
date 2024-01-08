@@ -31,7 +31,7 @@ model.
 - Automated moderation of site-wide events, impacting over 2 million users
 and improving moderation efficiency.
 
-## **iDeviceHacked** — Software Engineer
+## **iDeviceHacked** — Software Developer
 *December 2017 - April 2020*
 - Led the full software development life cycle of multiple iOS tweaks from
 design to deployment, achieving a peak user base of 200k users.
