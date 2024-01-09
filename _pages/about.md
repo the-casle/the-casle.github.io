@@ -4,7 +4,7 @@ title: "About"
 author_profile: true
 toc: false
 ---
-Currently, I'm a Research Assistant at the University of Minnesota.
+Currently, I'm a Research Assistant at the University of Minnesota. I'm working under Marc Riedel in the circuits and biology lab.
 
 When I'm not in class or working on research I like to run. It's a good de-stressor and also gives my day some schedule.
 

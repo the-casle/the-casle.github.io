@@ -14,7 +14,7 @@ author_profile: true
 order: 2
 ---
 
-In this project I utilized TensorFlow, a machine learning tool, for detection of anomalies in the vibrational data of devices indicating potential failure points. The challenge was deploying this detection model on edge devices constrained by limited memory and processing capabilities.
+In this project I utilized TensorFlow, a machine learning tool, for detection of anomalies in the vibrational data of devices indicating potential failure points. The detection model was designed for edge devices, constrained by limited memory and processing capabilities.
 
 I developed an auto-encoder using a 1D convolutional neural network (CNN). The model processed incoming data through a rolling window approach and applied the Fast Fourier Transform (FFT). This technique was both memory-efficient and well-suited for implementation directly on edge devices.
 
@@ -30,6 +30,6 @@ A critical component of the system's success was the transmission of acceleromet
 
 By adjusting the n-th percentile of error distribution, I fine-tuned the system to effectively discern anomalies based on the training data. The system achieved 98% accuracy and a high F-1 score in anomaly detection, underscoring the project's effectiveness in not just identifying unusual patterns but ensuring the reliability of predictions. This balance between precision and recall is particularly vital in anomaly detection, where missing an anomaly can have more severe implications than a false positive.
 
-Looking ahead, my goal is to develop the system into a multimodal platform that not only detects anomalies but also classifies them, thereby enhancing its robustness and versatility. The ultimate aim is to detect signs of deterioration at an early stage, reducing costly repairs and minimizing equipment downtime.
+Looking ahead, my goal is to develop the system into a multimodal platform that not only detects anomalies but also classifies them, thereby enhancing diagnosis and correction. The ultimate aim is to detect signs of deterioration at an early stage, reducing costly repairs and minimizing equipment downtime.
 
 Why is this significant? In industries where equipment failure can lead to significant losses, early fault detection is crucial. Machine learning provides a sophisticated means to detect these early signs. By deploying these models on edge devices, we enable continuous, real-time monitoring capable of adapting to various operational conditions, paving the way for smarter, safer industry practices.

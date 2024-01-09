@@ -18,9 +18,9 @@ author_profile: true
 order: 4
 ---
 
-In this project, we transformed a serialized version of a hypersonic glide vehicle trajectory simulation, originally written in Fortran, into C code. This conversion was driven by our familiarity with C and our goal to leverage its capabilities for our objectives.
+In this project, my team and I transformed a serialized version of a hypersonic glide vehicle trajectory simulation, originally written in Fortran, into C code. This conversion was driven by our familiarity with C.
 
-We then implemented the simulation in CUDA using the C code as our reference serial program. The motivation behind employing CUDA was the anticipation of future integrations of control surfaces into the program. These integrations will necessitate increased time steps per simulation, where GPU implementations can transform simulation times from days to mere minutes.
+We then implemented the simulation in CUDA using the C code as a reference serial program. The motivation behind employing CUDA was the future integration of varying control surfaces into the program. These integrations necessitate increased time steps per simulation, where GPU implementations can transform the simulation time from days to mere minutes.
 
 Our focus was on optimizing memory coalescing and data reuse, employing NVIDIA's Nsight tools for detailed project profiling. These efforts were crucial in achieving a 13x speedup in our simulations. We anticipate that with longer simulations, the benefits of GPU acceleration will be even more pronounced, as the initial startup and one-time data transfer become relatively negligible.
 
