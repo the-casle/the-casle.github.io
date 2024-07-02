@@ -1,21 +1,20 @@
 ---
-title: "Multistrand"
-permalink: /multistrand/
+title: "Pagosa"
+permalink: /pagosa/
 layout: single
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
   overlay_blur: "15px"
-  overlay_image: /assets/images/multistrand-reaction.png
+  overlay_image: /assets/images/pagosa.png
   alt: "Placeholder"
   actions:
-    - label: "GitHub"
-      url: "https://github.com/DNA-and-Natural-Algorithms-Group/multistrand"
+    - label: "Theory Manual"
+      url: "https://www.osti.gov/biblio/1734678"
       new_tab: true
   #teaser: /assets/images/asteroid.png
-excerpt: "Nucleic Acids Kinetic Simulator"
+excerpt: "Profiling Impact of Hyperthreading on Pagosa Hydrocode"
 author_profile: true
-order: 1
 ---
 
 Multistrand is a sophisticated nucleic acid kinetics simulator used to study biological circuits at the sequence-level. The tool emphasizes the often-overlooked kinetics of DNA, highlighting not only its chemical reactivity but also its physical properties, which are vital in understanding DNA behaviors and interactions.

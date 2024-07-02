@@ -5,13 +5,16 @@ layout: single
 author_profile: true
 toc: true
 ---
-This page shows off some of the relevant coursework and achievements I received over my academic career.
+Relevant coursework and achievements I received over my academic career.
 
-## Univ. of Minnesota — College of Science & Engineering, Twin Cities
-- **M.S. in Electrical & Computer Engineering** and **Minor in Data Science** (4.00),
-*2023-2024* <br>
-- **B.S. in Computer Engineering** (3.50), *2019-2023*
-  - Dean's List: *Fall 2022, Spring 2023*
+
+### Master’s in Electrical & Computer Engineering
+2023 - 2024 *University of Minnesota* (GPA: 3.95)
+- Minor in Data Science  <br>
+
+### BS in Computer Engineering
+2019 - 2023 *University of Minnesota* (GPA: 3.49)
+- Dean's List: Fall 2022, Spring 2023
 
 ## Relevant Coursework
 
