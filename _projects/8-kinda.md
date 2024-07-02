@@ -15,7 +15,6 @@ header:
   caption: "[freepik](https://www.freepik.com/free-photos-vectors)"
 excerpt: "MPI implementation on Oracle HPC for KinDA simulations"
 author_profile: true
-order: 7
 ---
 
 In my master's thesis, I am working on an MPI (Message Passing Interface) implementation of the simulator KiNDA. KiNDA is used to decompose a series of DNA reactions into their fundamental steps, which are then individually simulated using a tool called Multistrand. This detailed breakdown allows for a more granular analysis and understanding of the reactions.

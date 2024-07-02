@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Jake Kaslewicz"
 title_separator          : "-"
-subtitle                 : "Projects" # site tagline that appears below site title in masthead
+subtitle                 : "Portfolio" # site tagline that appears below site title in masthead
 name                     : "Jake Kaslewicz"
 description              : "Jake Kaslewicz Portfolio and Resume."
 url                      : "https://jake-kaslewicz.com"

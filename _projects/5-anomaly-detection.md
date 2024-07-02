@@ -11,7 +11,6 @@ header:
   #teaser: /assets/images/asteroid.png
 excerpt: "Implementing TensorFlow for efficient anomaly detection on edge devices."
 author_profile: true
-order: 2
 ---
 
 In this project I utilized TensorFlow, a machine learning tool, for detection of anomalies in the vibrational data of devices indicating potential failure points. The detection model was designed for edge devices, constrained by limited memory and processing capabilities.
